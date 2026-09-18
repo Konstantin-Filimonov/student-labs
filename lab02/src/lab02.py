@@ -4,7 +4,6 @@ import json
 import os
 import time
 from datetime import datetime, timezone
-from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI, APIError, BadRequestError
@@ -12,22 +11,21 @@ from openai import OpenAI, APIError, BadRequestError
 # --------------------------------------------------------------------------
 # 0. Конфигурация клиента (LM Studio = OpenAI-совместимый локальный сервер)
 # --------------------------------------------------------------------------
-
-ROOT = Path(__file__).resolve().parents[1]
-load_dotenv(ROOT / ".env")
+load_dotenv()
 
 LLM_BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:1234/v1")
 LLM_API_KEY = os.getenv("LLM_API_KEY", "lm-studio")
-
 MODEL = os.getenv("LLM_MODEL", "google/gemma-4-e4b")
-
 
 client = OpenAI(api_key=LLM_API_KEY, base_url=LLM_BASE_URL)
 
-RESULTS_DIR = ROOT / "results"
-RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-JSONL_PATH = RESULTS_DIR / "results.jsonl"
-CSV_PATH = RESULTS_DIR / "results.csv"
+# ПРАВКА: результаты пишем в lab02/results/, а не рядом со скриптом в src/,
+# чтобы соответствовать структуре lab02/src + lab02/results из требований
+# к оформлению репозитория.
+RESULTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "results")
+os.makedirs(RESULTS_DIR, exist_ok=True)
+JSONL_PATH = os.path.join(RESULTS_DIR, "results.jsonl")
+CSV_PATH = os.path.join(RESULTS_DIR, "results.csv")
 
 CSV_FIELDS = [
     "timestamp", "model", "experiment", "case_id", "repeat",
@@ -40,7 +38,6 @@ CSV_FIELDS = [
 # --------------------------------------------------------------------------
 # 1. Обёртка вызова модели с фиксацией параметров и ошибок
 # --------------------------------------------------------------------------
-
 def ask_model(prompt: str, system: str, temperature=None, top_p=None, max_tokens=None):
     """
     Вызывает модель через LM Studio. Добавляет в запрос только те параметры,
@@ -90,14 +87,12 @@ def ask_model(prompt: str, system: str, temperature=None, top_p=None, max_tokens
 # --------------------------------------------------------------------------
 # 2. Логирование результата одной попытки
 # --------------------------------------------------------------------------
-
 _csv_file_initialized = os.path.exists(CSV_PATH)
 
 
 def log_result(experiment, case_id, repeat, temperature, top_p, max_tokens,
                 system_id, latency_s, usage, answer, error):
     global _csv_file_initialized
-
     record = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "model": MODEL,
@@ -143,7 +138,6 @@ def log_result(experiment, case_id, repeat, temperature, top_p, max_tokens,
 # --------------------------------------------------------------------------
 # 3. Этап 1. Базовая конфигурация (значения по умолчанию)
 # --------------------------------------------------------------------------
-
 BASELINE_PROMPT = (
     "Событие: в 03:17 зафиксировано 25 неудачных попыток входа в учётную "
     "запись admin с одного IP, после чего произошёл успешный вход. "
@@ -166,7 +160,6 @@ def stage1_baseline(repeats=3):
 # --------------------------------------------------------------------------
 # 4. Этап 2. Влияние system prompt (3 варианта, один и тот же user prompt)
 # --------------------------------------------------------------------------
-
 SYSTEM_PROMPTS = {
     "sys_01": "Отвечай на запрос пользователя.",
     "sys_02": (
@@ -179,7 +172,6 @@ SYSTEM_PROMPTS = {
         "Факты / Гипотезы / Действия."
     ),
 }
-
 SYSTEM_PROMPT_USER_QUERY = BASELINE_PROMPT  # тот же запрос, что и в методичке
 
 
@@ -197,7 +189,6 @@ def stage2_system_prompt():
 # --------------------------------------------------------------------------
 # 5. Этап 3. Влияние temperature (5 повторов на каждое значение)
 # --------------------------------------------------------------------------
-
 TEMPERATURE_PROMPT = (
     "Предложи пять названий сервиса для автоматического анализа журналов "
     "событий информационной безопасности. Для каждого названия дай "
@@ -222,7 +213,6 @@ def stage3_temperature(repeats=5):
 # --------------------------------------------------------------------------
 # 6. Этап 4. Ограничение длины ответа
 # --------------------------------------------------------------------------
-
 LENGTH_PROMPT = (
     "Объясни студенту 4 курса архитектуру RAG-системы: ingestion, "
     "chunking, embeddings, vector database, retrieval, prompt construction "
@@ -247,7 +237,6 @@ def stage4_length():
 # --------------------------------------------------------------------------
 # 7. Этап 6. Точка входа / автоматизация всего эксперимента
 # --------------------------------------------------------------------------
-
 def main():
     parser = argparse.ArgumentParser(description="ЛР2: параметры и конфигурация LLM")
     parser.add_argument("--stage", choices=["1", "2", "3", "4", "all"], default="all",
@@ -258,7 +247,7 @@ def main():
 
     print(f"Модель: {MODEL}")
     print(f"Эндпоинт: {LLM_BASE_URL}")
-    print(f"Результаты: {JSONL_PATH}\n            {CSV_PATH}")
+    print(f"Результаты: {JSONL_PATH}\n {CSV_PATH}")
 
     if args.stage in ("1", "all"):
         stage1_baseline(repeats=args.repeats_baseline)
