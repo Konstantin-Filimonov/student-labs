@@ -25,7 +25,6 @@ student-labs/
 │   ├── README.md
 │   ├── src/
 │   ├── results/
-│   ├── config/            (если используется)
 │   └── requirements.txt
 │
 ├── lab02/
@@ -35,8 +34,11 @@ student-labs/
 │   └── requirements.txt
 │
 ├── lab03/
-│   └── ...
-│
+
+│   ├── README.md
+│   ├── src/
+│   ├── results/
+│   └── requirements.txt│
 └── .gitignore
 ```
 
