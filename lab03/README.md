@@ -39,15 +39,16 @@ few-shot промпт со строгим форматом вывода на о�
 ```text
 lab03/
 ├── README.md
-├── lab03.py                     # прогон всех промптов по всем тестам
-├── make_scoring_template.py     # генерация шаблона для ручной оценки
-├── prompt_v1.txt                # базовый (наивный) промпт
-├── prompt_v2.txt                # структурированный (Role–Task–Context–Constraints–Output)
-├── prompt_v3.txt                # few-shot + строгий JSON
-├── prompt_phishing.txt          # индивидуальное задание (антифишинг)
-├── tests.json                   # 10 тестов SOC-сценария
-├── tests_phishing.json          # 5 тестов индивидуального задания
 ├── requirements.txt
+├── .env.example
+├── src/
+│   ├── lab03.py                 # прогон всех промптов по всем тестам
+│   ├── prompt_v1.txt            # базовый (наивный) промпт
+│   ├── prompt_v2.txt            # структурированный (Role–Task–Context–Constraints–Output)
+│   ├── prompt_v3.txt            # few-shot + строгий JSON
+│   ├── prompt_phishing.txt      # индивидуальное задание (антифишинг)
+│   ├── tests.json               # 10 тестов SOC-сценария
+│   └── tests_phishing.json      # 5 тестов индивидуального задания
 └── results/
     ├── results.csv              # ответы 3×10 (SOC)
     ├── results_phishing.csv     # ответы 1×5 (phishing)
@@ -100,10 +101,11 @@ injection внутри текста письма.
 
 ### Логирование
 
-`lab03.py` последовательно прогоняет каждую версию промпта по всем тестам
-и пишет результат в `results/results.csv` (для SOC-набора) либо
-`results/results_phishing.csv` (для индивидуального задания). Ошибки API
-по каждому запросу ловятся отдельно и не прерывают весь эксперимент.
+`src/lab03.py` последовательно прогоняет каждую версию промпта по всем
+тестам и пишет результат в `results/results.csv` (для SOC-набора) либо
+`results/results_phishing.csv` (для индивидуального задания). Промпты и
+тесты лежат рядом со скриптом в `src/`, а `.env` читается из корня lab03
+— поэтому запускать скрипт можно из любого места.
 
 ## Запуск
 
@@ -136,12 +138,6 @@ python lab03.py --task soc
 
 ```bash
 python lab03.py --task phishing
-```
-
-Сгенерировать шаблон для ручной оценки ответов:
-
-```bash
-python make_scoring_template.py
 ```
 
 ### Переменные окружения
