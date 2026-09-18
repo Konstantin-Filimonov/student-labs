@@ -8,8 +8,12 @@ from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
 
-ROOT = Path(__file__).resolve().parents[1]
-load_dotenv(ROOT / ".env")
+# --------------------------------------------------------------------------
+# 0. Конфигурация клиента (LM Studio = OpenAI-совместимый локальный сервер)
+# --------------------------------------------------------------------------
+BASE_DIR = Path(__file__).resolve().parent          # .../lab03/src
+LAB_DIR = BASE_DIR.parent                            # .../lab03
+load_dotenv(LAB_DIR / ".env")
 
 client = OpenAI(
     api_key=os.getenv("LLM_API_KEY", "lm-studio"),
@@ -17,8 +21,11 @@ client = OpenAI(
 )
 
 MODEL = os.getenv("LLM_MODEL", "google/gemma-4-e4b")
-# Низкая temperature: сравниваем промпты, а не случайный разброс генерации.
 TEMPERATURE = 0.2
+
+# Результаты кладём в lab03/results/, а не рядом со скриптом в src/
+RESULTS_DIR = LAB_DIR / "results"
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def ask(system_prompt: str, user_prompt: str) -> tuple[str, float]:
@@ -35,26 +42,24 @@ def ask(system_prompt: str, user_prompt: str) -> tuple[str, float]:
     return response.choices[0].message.content, elapsed
 
 
-def load_prompts(pattern: str) -> dict[str, str]:
+def load_prompts() -> dict[str, str]:
     prompts = {}
-    for path in sorted((ROOT / "data").glob(pattern)):
+    for path in sorted(BASE_DIR.glob("prompt_v*.txt")):
         version = path.stem
         prompts[version] = path.read_text(encoding="utf-8").strip()
     return prompts
 
 
-def load_tests(relative_path: str) -> list[dict]:
-    with open(ROOT / "data" / relative_path, encoding="utf-8") as f:
+def load_tests(name: str) -> list[dict]:
+    with open(BASE_DIR / name, encoding="utf-8") as f:
         return json.load(f)
 
 
 def run_suite(prompts: dict[str, str], tests: list[dict], output_name: str) -> None:
     if not prompts:
-        raise SystemExit("Не найдено ни одного файла промпта")
+        raise SystemExit("Не найдено ни одного файла prompt_v*.txt в src/")
 
-    results_dir = ROOT / "results"
-    results_dir.mkdir(parents=True, exist_ok=True)
-    output_path = results_dir / output_name
+    output_path = RESULTS_DIR / output_name
     fieldnames = ["test_id", "category", "prompt_version", "input", "response", "time_sec"]
 
     with open(output_path, "w", newline="", encoding="utf-8") as csvfile:
@@ -96,16 +101,16 @@ def main() -> None:
     print(f"Temperature: {TEMPERATURE}")
 
     if args.task == "soc":
-        prompts = load_prompts("prompts/prompt_v*.txt")
+        prompts = load_prompts()
         tests = load_tests("tests.json")
         run_suite(prompts, tests, "results.csv")
     else:
         prompts = {
-            "prompt_phishing": (ROOT / "data" / "individual_task" / "prompt_phishing.txt")
+            "prompt_phishing": (BASE_DIR / "prompt_phishing.txt")
             .read_text(encoding="utf-8")
             .strip()
         }
-        tests = load_tests("individual_task/tests_phishing.json")
+        tests = load_tests("tests_phishing.json")
         run_suite(prompts, tests, "results_phishing.csv")
 
 
