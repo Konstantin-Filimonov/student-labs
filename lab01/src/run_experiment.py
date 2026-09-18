@@ -1,11 +1,10 @@
 import csv
 import os
-from pathlib import Path
 
-from llm_client import ROOT, ask_model, MODEL_NAME, MODEL_LABEL
+from llm_client import ask_model, MODEL_NAME, MODEL_LABEL
 from prompts import PROMPTS
 
-RESULTS_PATH = ROOT / "results" / "experiment_results.csv"
+RESULTS_PATH = os.path.join("results", "experiment_results.csv")
 FIELDNAMES = [
     "model_label",
     "model_name",
@@ -55,7 +54,7 @@ def run() -> list[dict]:
 
 
 def save_results(results: list[dict]) -> None:
-    os.makedirs(ROOT / "results", exist_ok=True)
+    os.makedirs("results", exist_ok=True)
     file_exists = os.path.isfile(RESULTS_PATH)
 
     with open(RESULTS_PATH, "a", newline="", encoding="utf-8") as f:

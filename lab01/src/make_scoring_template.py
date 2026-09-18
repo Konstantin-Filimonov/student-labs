@@ -1,9 +1,7 @@
 import pandas as pd
 
-from llm_client import ROOT
-
-INPUT_PATH = ROOT / "results" / "experiment_results.csv"
-OUTPUT_PATH = ROOT / "results" / "scoring_template.csv"
+INPUT_PATH = "results/experiment_results.csv"
+OUTPUT_PATH = "results/scoring_template.csv"
 
 SCORE_COLUMNS = [
     "correctness_0_2",       # корректность

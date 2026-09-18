@@ -1,13 +1,13 @@
 import csv
 import os
 
-from llm_client import ROOT, ask_model, MODEL_NAME, MODEL_LABEL
+from llm_client import ask_model, MODEL_NAME, MODEL_LABEL
 from prompts import PROMPTS
 
 REPEATS = 5
 SELECTED_IDS = [1, 5, 10]  # можно изменить на любые 3 id из prompts.py
 
-RESULTS_PATH = ROOT / "results" / "stability_results.csv"
+RESULTS_PATH = os.path.join("results", "stability_results.csv")
 FIELDNAMES = ["model_label", "prompt_id", "run_number", "latency_sec", "word_count", "answer", "error"]
 
 
@@ -46,7 +46,7 @@ def run() -> list[dict]:
 
 
 if __name__ == "__main__":
-    os.makedirs(ROOT / "results", exist_ok=True)
+    os.makedirs("results", exist_ok=True)
     results = run()
 
     file_exists = os.path.isfile(RESULTS_PATH)

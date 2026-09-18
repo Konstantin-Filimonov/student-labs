@@ -1,10 +1,6 @@
-from pathlib import Path
-
 import pandas as pd
 
-from llm_client import ROOT
-
-SCORED_PATH = ROOT / "results" / "scoring_template.csv"
+SCORED_PATH = "results/scoring_template.csv"
 
 SCORE_COLS = [
     "correctness_0_2",
@@ -41,8 +37,8 @@ if __name__ == "__main__":
         avg_total_score=("total_score_0_8", "mean"),
     ).round(2)
 
-    summary.to_csv(ROOT / "results" / "summary.csv")
-    summary_by_type.to_csv(ROOT / "results" / "summary_by_type.csv")
+    summary.to_csv("results/summary.csv")
+    summary_by_type.to_csv("results/summary_by_type.csv")
 
     print("=== Сводное сравнение моделей ===")
     print(summary)

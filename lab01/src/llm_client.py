@@ -1,12 +1,10 @@
 import os
 import time
-from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import OpenAI
 
-ROOT = Path(__file__).resolve().parents[1]
-load_dotenv(ROOT / ".env")
+load_dotenv()
 
 API_KEY = os.getenv("LLM_API_KEY", "lm-studio")
 BASE_URL = os.getenv("LLM_BASE_URL", "http://localhost:1234/v1")
