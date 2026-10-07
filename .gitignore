@@ -1,0 +1,25 @@
+# Секреты — никогда не коммитить
+.env
+*.env
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Логи и временные файлы
+*.log
+.DS_Store
+Thumbs.db
+
+# Node (на случай, если понадобится в будущих лабах)
+node_modules/
