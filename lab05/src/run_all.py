@@ -108,8 +108,6 @@ def main() -> int:
 
     if "bench" not in args.skip:
         (out / "report_data.md").write_text(build(data), encoding="utf-8")
-        print(f"\nГОТОВО. Отправьте мне файл: {out / 'report_data.md'}")
-        print("Не забудьте скриншоты (папка screenshots/): список моделей, запущенный сервер, мониторинг.")
     else:
         print("\nГОТОВО (бенчмарк пропущен, report_data.md не создавался).")
     return 0
