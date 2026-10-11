@@ -1,0 +1,13 @@
+{
+  "_comment": "Эталон для индивидуального задания. Лог синтетический, адреса из диапазонов документации (RFC 5737).",
+  "must_find": [
+    {"id": "ssh_bruteforce_success", "description": "Серия неудачных входов root по SSH и затем успешный вход с 203.0.113.45", "keywords": ["203.0.113.45"]},
+    {"id": "new_privileged_user", "description": "Создан пользователь support_tmp и добавлен в группу sudo сразу после входа", "keywords": ["support_tmp"]},
+    {"id": "port_scan", "description": "Сканирование портов с 198.51.100.7 (блокировки UFW по разным портам)", "keywords": ["198.51.100.7"]},
+    {"id": "webserver_account_abuse", "description": "Учётная запись веб-сервера www-data читает /etc/shadow и скачивает скрипт", "keywords": ["www-data"]}
+  ],
+  "must_not_flag": [
+    {"id": "cron_backup", "description": "Плановое резервное копирование", "keywords": ["backup.sh"]},
+    {"id": "user_typo", "description": "Одна ошибка пароля штатного пользователя и штатные действия ivanov", "keywords": ["ivanov"]}
+  ]
+}

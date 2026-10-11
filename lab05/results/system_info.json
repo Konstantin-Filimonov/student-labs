@@ -1,0 +1,19 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+  "cores_physical": 4,
+  "threads_logical": 8,
+  "ram_total_gb": 31.8,
+  "gpu": "NVIDIA GeForce GTX 1650 Ti",
+  "vram_total_gb": 4.0,
+  "disk_free_gb": 53.5,
+  "disk_checked": "C:\\",
+  "python": "3.14.0",
+  "api_server": {
+    "port": 1234,
+    "listen": [
+      "127.0.0.1"
+    ],
+    "exposed_to_network": false
+  }
+}

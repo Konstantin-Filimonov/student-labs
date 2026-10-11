@@ -1,0 +1,74 @@
+{
+  "lines": 27,
+  "findings": [
+    {
+      "severity": "high",
+      "category": "Unauthorized Access Attempts",
+      "evidence": "Failed password for root from 203.0.113.45 port 51122 ssh2, Failed password for root from 203.0.113.45 port 51126 ssh2, etc.",
+      "reason": "Multiple failed login attempts to the root account from an unknown IP address (203.0.113.45) over SSH, which is a common indicator of brute force or unauthorized access attempts.",
+      "recommended_action": "Implement multi-factor authentication for root and review logs for any suspicious activity."
+    },
+    {
+      "severity": "high",
+      "category": "Unauthorized Access Attempts",
+      "evidence": "Failed password for ivanov from 10.0.2.34 port 53390 ssh2, Accepted password for ivanov from 10.0.2.34 port 53392 ssh2",
+      "reason": "Multiple failed login attempts to the user 'ivanov' and then a successful login attempt from an unknown IP address (10.0.2.34) over SSH, which is suspicious.",
+      "recommended_action": "Implement multi-factor authentication for ivanov and review logs for any suspicious activity."
+    },
+    {
+      "severity": "high",
+      "category": "Unauthorized Access Attempts",
+      "evidence": "[UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44000 DPT=21, [UFW BLOCK] IN=eth0 SRC=198.51.100.7 DST=10.0.0.5 PROTO=TCP SPT=44001 DPT=22, etc.",
+      "reason": "Multiple blocked incoming connections from an unknown IP address (198.51.100.7) to the server's SSH and FTP ports, which is a common indicator of unauthorized access attempts.",
+      "recommended_action": "Implement multi-factor authentication for all users and review logs for any suspicious activity."
+    },
+    {
+      "severity": "high",
+      "category": "Unauthorized Access Attempts",
+      "evidence": "sudo: www-data : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=/bin/cat /etc/shadow",
+      "reason": "A non-privileged user (www-data) attempting to access the root directory and viewing the shadow file, which is a sensitive system file.",
+      "recommended_action": "Review sudo logs for any suspicious activity and ensure that www-data does not have unnecessary permissions."
+    }
+  ],
+  "summary": "Multiple unauthorized login attempts detected. Additionally, an attempt was made by a non-privileged user to access a sensitive system file (shadow).",
+  "parse_errors": 0,
+  "structured_output": true,
+  "time_s": 20.29,
+  "completion_tokens": 652,
+  "evaluation": {
+    "expected": 4,
+    "found": 3,
+    "recall": 0.75,
+    "found_items": [
+      {
+        "id": "ssh_bruteforce_success",
+        "description": "Серия неудачных входов root по SSH и затем успешный вход с 203.0.113.45",
+        "severity": "high"
+      },
+      {
+        "id": "port_scan",
+        "description": "Сканирование портов с 198.51.100.7 (блокировки UFW по разным портам)",
+        "severity": "high"
+      },
+      {
+        "id": "webserver_account_abuse",
+        "description": "Учётная запись веб-сервера www-data читает /etc/shadow и скачивает скрипт",
+        "severity": "high"
+      }
+    ],
+    "missed_items": [
+      {
+        "id": "new_privileged_user",
+        "description": "Создан пользователь support_tmp и добавлен в группу sudo сразу после входа",
+        "severity": null
+      }
+    ],
+    "false_positives": [
+      {
+        "id": "user_typo",
+        "description": "Одна ошибка пароля штатного пользователя и штатные действия ivanov",
+        "severity": "high"
+      }
+    ]
+  }
+}

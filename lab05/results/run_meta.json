@@ -1,0 +1,32 @@
+{
+  "id": "qwen2.5-3b-instruct",
+  "lmstudio_record": {
+    "id": "qwen2.5-3b-instruct",
+    "object": "model",
+    "type": "llm",
+    "publisher": "Qwen",
+    "arch": "qwen2",
+    "compatibility_type": "gguf",
+    "quantization": "Q4_K_M",
+    "state": "loaded",
+    "max_context_length": 32768,
+    "loaded_context_length": 8192,
+    "capabilities": [
+      "tool_use"
+    ]
+  },
+  "runtime": {
+    "name": "llama.cpp-win-x86_64-nvidia-cuda12-avx2",
+    "version": "2.50.0",
+    "supported_formats": [
+      "gguf"
+    ]
+  },
+  "model_info": {
+    "arch": "qwen2",
+    "quant": "Q4_K_M",
+    "format": "gguf",
+    "context_length": 8192
+  },
+  "lmstudio_version_manual": "не указана (.env)"
+}

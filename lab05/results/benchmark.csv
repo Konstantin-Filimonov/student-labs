@@ -1,0 +1,6 @@
+run,kind,total_time_s,ttft_s,gen_time_s,prompt_tokens,completion_tokens,tokens_per_s,stats_source,finish_reason
+1,первый,7.895,0.282,5.542,47,300,56.84,lmstudio,length
+2,повторный,5.464,0.02,5.439,47,300,55.18,lmstudio,length
+3,повторный,5.61,0.02,5.579,47,300,53.79,lmstudio,length
+4,повторный,5.365,0.019,5.333,47,300,56.27,lmstudio,length
+5,повторный,5.498,0.02,5.454,47,300,55.01,lmstudio,length
