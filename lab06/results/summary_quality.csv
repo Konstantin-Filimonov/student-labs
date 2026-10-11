@@ -1,0 +1,3 @@
+﻿model,mean_score,sum_score,n_tests,max_possible,percent
+cloud,1.075,21.5,20,40,53.8
+local,0.775,15.5,20,40,38.8
