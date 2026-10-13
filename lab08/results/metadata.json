@@ -1,0 +1,282 @@
+[
+  {
+    "chunk_id": "d01_0",
+    "doc_id": "d01",
+    "source": "Регламент ИБ, п. 4.1",
+    "category": "учётные записи",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d02_0",
+    "doc_id": "d02",
+    "source": "Регламент ИБ, п. 5.2",
+    "category": "резервное копирование",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d03_0",
+    "doc_id": "d03",
+    "source": "Политика доступа, п. 3.4",
+    "category": "доступ",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d04_0",
+    "doc_id": "d04",
+    "source": "Политика паролей, п. 2.1",
+    "category": "пароли",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d05_0",
+    "doc_id": "d05",
+    "source": "Политика паролей, п. 2.5",
+    "category": "пароли",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d06_0",
+    "doc_id": "d06",
+    "source": "Инструкция по реагированию, п. 1.2",
+    "category": "фишинг",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d07_0",
+    "doc_id": "d07",
+    "source": "Инструкция по реагированию, п. 1.3",
+    "category": "фишинг",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d08_0",
+    "doc_id": "d08",
+    "source": "Регламент ИБ, п. 4.7",
+    "category": "учётные записи",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d09_0",
+    "doc_id": "d09",
+    "source": "Политика доступа, п. 3.9",
+    "category": "учётные записи",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d10_0",
+    "doc_id": "d10",
+    "source": "Регламент ИБ, п. 5.4",
+    "category": "резервное копирование",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d11_0",
+    "doc_id": "d11",
+    "source": "Инструкция по реагированию, п. 2.1",
+    "category": "инциденты",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d12_0",
+    "doc_id": "d12",
+    "source": "Регламент ИБ, п. 6.1",
+    "category": "инциденты",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d13_0",
+    "doc_id": "d13",
+    "source": "Регламент ИБ, п. 6.3",
+    "category": "инциденты",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d14_0",
+    "doc_id": "d14",
+    "source": "Политика доступа, п. 3.2",
+    "category": "доступ",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d15_0",
+    "doc_id": "d15",
+    "source": "Политика доступа, п. 3.11",
+    "category": "доступ",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d16_0",
+    "doc_id": "d16",
+    "source": "Политика доступа, п. 3.6",
+    "category": "доступ",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d17_0",
+    "doc_id": "d17",
+    "source": "Стандарт разработки, п. 4.2",
+    "category": "безопасная разработка",
+    "access_group": "devs"
+  },
+  {
+    "chunk_id": "d18_0",
+    "doc_id": "d18",
+    "source": "Стандарт разработки, п. 5.1",
+    "category": "безопасная разработка",
+    "access_group": "devs"
+  },
+  {
+    "chunk_id": "d19_0",
+    "doc_id": "d19",
+    "source": "Стандарт разработки, п. 6.3",
+    "category": "безопасная разработка",
+    "access_group": "devs"
+  },
+  {
+    "chunk_id": "d20_0",
+    "doc_id": "d20",
+    "source": "Стандарт разработки, п. 7.1",
+    "category": "безопасная разработка",
+    "access_group": "devs"
+  },
+  {
+    "chunk_id": "d21_0",
+    "doc_id": "d21",
+    "source": "Регламент SOC, п. 2.4",
+    "category": "SOC",
+    "access_group": "soc"
+  },
+  {
+    "chunk_id": "d22_0",
+    "doc_id": "d22",
+    "source": "Регламент SOC, п. 2.7",
+    "category": "SOC",
+    "access_group": "soc"
+  },
+  {
+    "chunk_id": "d23_0",
+    "doc_id": "d23",
+    "source": "Регламент SOC, п. 3.2",
+    "category": "SOC",
+    "access_group": "soc"
+  },
+  {
+    "chunk_id": "d24_0",
+    "doc_id": "d24",
+    "source": "Регламент SOC, п. 5.1",
+    "category": "SOC",
+    "access_group": "soc"
+  },
+  {
+    "chunk_id": "d25_0",
+    "doc_id": "d25",
+    "source": "Регламент ИБ, п. 7.2",
+    "category": "журналирование",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d26_0",
+    "doc_id": "d26",
+    "source": "Регламент ИБ, п. 4.3",
+    "category": "учётные записи",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d27_0",
+    "doc_id": "d27",
+    "source": "Политика паролей, п. 2.8",
+    "category": "пароли",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d28_0",
+    "doc_id": "d28",
+    "source": "Политика доступа, п. 4.5",
+    "category": "доступ",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d29_0",
+    "doc_id": "d29",
+    "source": "Регламент ИБ, п. 5.8",
+    "category": "резервное копирование",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d30_0",
+    "doc_id": "d30",
+    "source": "Инструкция по реагированию, п. 3.4",
+    "category": "инциденты",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d31_0",
+    "doc_id": "d31",
+    "source": "Регламент ИБ, п. 8.1",
+    "category": "фишинг",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d32_0",
+    "doc_id": "d32",
+    "source": "Политика ИБ, п. 1.9",
+    "category": "обучение",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d33_0",
+    "doc_id": "d33",
+    "source": "Регламент ИБ, п. 9.2",
+    "category": "уязвимости",
+    "access_group": "admins"
+  },
+  {
+    "chunk_id": "d34_0",
+    "doc_id": "d34",
+    "source": "Регламент ИБ, п. 9.4",
+    "category": "уязвимости",
+    "access_group": "admins"
+  },
+  {
+    "chunk_id": "d35_0",
+    "doc_id": "d35",
+    "source": "Политика ИБ, п. 2.3",
+    "category": "политики",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d36_0",
+    "doc_id": "d36",
+    "source": "Политика ИБ, п. 2.11",
+    "category": "политики",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d37_0",
+    "doc_id": "d37",
+    "source": "Регламент ИБ, п. 5.6",
+    "category": "резервное копирование",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d38_0",
+    "doc_id": "d38",
+    "source": "Регламент ИБ, п. 5.7",
+    "category": "резервное копирование",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d39_0",
+    "doc_id": "d39",
+    "source": "Регламент ИБ, п. 6.6",
+    "category": "инциденты",
+    "access_group": "public"
+  },
+  {
+    "chunk_id": "d40_0",
+    "doc_id": "d40",
+    "source": "Регламент ИБ, п. 4.9",
+    "category": "учётные записи",
+    "access_group": "public"
+  }
+]
