@@ -1,0 +1,15 @@
+{"id": "q01", "question": "Что делать при подозрении на компрометацию учётной записи?", "reference_doc_ids": ["d01", "d26"], "has_answer_in_corpus": true, "type": "direct"}
+{"id": "q02", "question": "Как проверяются резервные копии критичных систем?", "reference_doc_ids": ["d02", "d29"], "has_answer_in_corpus": true, "type": "direct"}
+{"id": "q03", "question": "Какие требования предъявляются к паролям сотрудников?", "reference_doc_ids": ["d04", "d05"], "has_answer_in_corpus": true, "type": "direct"}
+{"id": "q04", "question": "Что нужно делать при получении подозрительного письма?", "reference_doc_ids": ["d06", "d07"], "has_answer_in_corpus": true, "type": "direct"}
+{"id": "q05", "question": "В какой срок нужно реагировать на критический инцидент?", "reference_doc_ids": ["d13"], "has_answer_in_corpus": true, "type": "fact"}
+{"id": "q06", "question": "Как защититься от SQL-инъекций в разрабатываемом коде?", "reference_doc_ids": ["d17"], "has_answer_in_corpus": true, "type": "technical"}
+{"id": "q07", "question": "Что делать при атаке программы-вымогателя?", "reference_doc_ids": ["d30"], "has_answer_in_corpus": true, "type": "semantic"}
+{"id": "q08", "question": "Какая схема применяется для хранения резервных копий?", "reference_doc_ids": ["d37", "d38"], "has_answer_in_corpus": true, "type": "fact"}
+{"id": "q09", "question": "Когда блокируется учётная запись уволенного сотрудника?", "reference_doc_ids": ["d08", "d40"], "has_answer_in_corpus": true, "type": "fact"}
+{"id": "q10", "question": "Что грозит за использование неофициального программного обеспечения на рабочей станции?", "reference_doc_ids": ["d35"], "has_answer_in_corpus": true, "type": "semantic"}
+{"id": "q11", "question": "Какой пароль разрешён для администратора домена?", "reference_doc_ids": [], "has_answer_in_corpus": false, "type": "no_answer"}
+{"id": "q12", "question": "Как настроить VPN для удалённого доступа?", "reference_doc_ids": [], "has_answer_in_corpus": false, "type": "no_answer"}
+{"id": "q13", "question": "Сколько стоит лицензия на антивирус?", "reference_doc_ids": [], "has_answer_in_corpus": false, "type": "no_answer"}
+{"id": "q14", "question": "Кто отвечает за пожарную безопасность в серверной?", "reference_doc_ids": [], "has_answer_in_corpus": false, "type": "no_answer"}
+{"id": "q15", "question": "Как сбросить пароль через SMS?", "reference_doc_ids": [], "has_answer_in_corpus": false, "type": "no_answer"}
