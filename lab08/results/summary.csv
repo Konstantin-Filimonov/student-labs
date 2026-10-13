@@ -1,0 +1,4 @@
+k,recall@k,mrr,avg_retrieve_s,avg_generate_s,citation_rate,refusal_rate
+2,0.8,0.9,0.033,1.255,0.6,1.0
+4,0.9,0.925,0.024,1.612,0.6,1.0
+8,0.95,0.925,0.022,2.368,0.6,1.0
