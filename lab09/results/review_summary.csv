@@ -1,0 +1,4 @@
+experiment_id,n_answerable_rated,correctness_mean_0_2,grounded_pct,citation_ok_pct,n_unanswerable_rated,refusal_ok_pct,auto_has_citation_pct,avg_context_chars,avg_t_generate_s
+base_dense_600_100_k4,20,1.7,90.0,88.9,10,100.0,90.0,2168.7,2.59
+hybrid_600_100_k4,20,1.8,85.0,77.8,10,100.0,75.0,2166.7,2.554
+topk_2_dense,20,1.7,90.0,94.4,10,100.0,90.0,1120.5,1.094

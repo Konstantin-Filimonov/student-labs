@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-10T11:31:38",
+  "python": "3.14.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "embedding_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "reranker_model": null,
+  "corpus_version": "lab09-corpus-v1",
+  "data_sha256_12": "4f66d9220821",
+  "n_docs": 10,
+  "n_questions": 23,
+  "user_group": null,
+  "rrf_c": 60,
+  "versions": {
+    "sentence-transformers": "6.1.0",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "torch": "2.14.1"
+  }
+}

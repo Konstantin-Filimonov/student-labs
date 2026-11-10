@@ -1,0 +1,43 @@
+# ЛР9. Единая конфигурация экспериментов.
+# Размер фрагмента и перекрытие задаются в СИМВОЛАХ.
+model_name: "paraphrase-multilingual-MiniLM-L12-v2"
+reranker_model: null        # для нейронного cross-encoder (расширенное задание), напр. "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1"
+corpus_version: "lab09-corpus-v1"
+rrf_c: 60                   # константа сглаживания RRF
+lexical:
+  analyzer: "char"          # TF-IDF по символьным n-граммам (как в листинге методички)
+  ngram_range: [3, 5]
+rerank_weights:             # простой второй этап на признаках (feature reranker)
+  dense: 0.5                # нормализованное плотное сходство
+  coverage: 0.4             # доля слов запроса (по основам), найденных во фрагменте
+  exact: 0.1                # точное совпадение чисел и аббревиатур из запроса
+llm:
+  temperature: 0.2
+  max_tokens: 500
+  prompt_version: "v1"      # системная инструкция та же, что в ЛР8
+baseline: "base_dense_600_100_k4"
+
+# Основная серия: по одному фактору относительно базовой линии.
+experiments:
+  - {id: chunk_300_dense_k4,           factor: chunk_size,  chunk_size: 300,  overlap: 100, search_mode: dense,   rerank: none,    candidate_n: 12, top_k: 4}
+  - {id: base_dense_600_100_k4,        factor: baseline,    chunk_size: 600,  overlap: 100, search_mode: dense,   rerank: none,    candidate_n: 12, top_k: 4}
+  - {id: chunk_1200_dense_k4,          factor: chunk_size,  chunk_size: 1200, overlap: 100, search_mode: dense,   rerank: none,    candidate_n: 12, top_k: 4}
+  - {id: overlap_0_dense_k4,           factor: overlap,     chunk_size: 600,  overlap: 0,   search_mode: dense,   rerank: none,    candidate_n: 12, top_k: 4}
+  - {id: overlap_200_dense_k4,         factor: overlap,     chunk_size: 600,  overlap: 200, search_mode: dense,   rerank: none,    candidate_n: 12, top_k: 4}
+  - {id: topk_2_dense,                 factor: top_k,       chunk_size: 600,  overlap: 100, search_mode: dense,   rerank: none,    candidate_n: 12, top_k: 2}
+  - {id: topk_8_dense,                 factor: top_k,       chunk_size: 600,  overlap: 100, search_mode: dense,   rerank: none,    candidate_n: 12, top_k: 8}
+  - {id: lexical_600_100_k4,           factor: search_mode, chunk_size: 600,  overlap: 100, search_mode: lexical, rerank: none,    candidate_n: 12, top_k: 4}
+  - {id: hybrid_600_100_k4,            factor: search_mode, chunk_size: 600,  overlap: 100, search_mode: hybrid,  rerank: none,    candidate_n: 12, top_k: 4}
+  # Второй этап: одинаковый кандидатный набор N=12 до и после переранжирования.
+  - {id: rerank_feat_dense_600_n12_k4,  factor: rerank,     chunk_size: 600,  overlap: 100, search_mode: dense,   rerank: feature, candidate_n: 12, top_k: 4}
+  - {id: rerank_feat_hybrid_600_n12_k4, factor: rerank,     chunk_size: 600,  overlap: 100, search_mode: hybrid,  rerank: feature, candidate_n: 12, top_k: 4}
+  # Расширенное задание: выполняется только если задан reranker_model.
+  - {id: rerank_cross_dense_600_n12_k4, factor: rerank,     chunk_size: 600,  overlap: 100, search_mode: dense,   rerank: cross_encoder, candidate_n: 12, top_k: 4}
+
+# Оценка генерации (шаг 8): три конфигурации выбираются по итогам evaluate.py и правятся здесь
+# или передаются в командной строке (python src/answers.py --experiments ...).
+answer_eval:
+  experiments: [base_dense_600_100_k4, hybrid_600_100_k4, topk_2_dense]
+  repeats: 2
+  question_ids: [q01, q02, q05, q06, q08, q09, q16, q17, q19, q20,   # 10 ответимых
+                 q11, q12, q13, q22, q23]                            # 5 неответимых
