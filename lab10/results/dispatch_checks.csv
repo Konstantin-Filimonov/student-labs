@@ -1,0 +1,25 @@
+﻿case_id,category,tool,raw_arguments,role,expected,actual,passed
+D01,белый список,delete_database,{},soc,forbidden_tool,{'error': 'forbidden_tool'},True
+D02,белый список,os.system,"{""cmd"":""whoami""}",soc,forbidden_tool,{'error': 'forbidden_tool'},True
+D03,белый список,__import__,"{""name"":""os""}",soc,forbidden_tool,{'error': 'forbidden_tool'},True
+D04,белый список,GET_INCIDENT,"{""incident_id"":""INC-101""}",soc,forbidden_tool (регистр имени),{'error': 'forbidden_tool'},True
+D05,белый список,,{},soc,forbidden_tool (имя не строка),{'error': 'forbidden_tool'},True
+D06,права роли,get_incident,"{""incident_id"":""INC-101""}",public,permission_denied,{'error': 'permission_denied'},True
+D07,права роли,lookup_ip,"{""ip"":""203.0.113.42""}",public,permission_denied,{'error': 'permission_denied'},True
+D08,аргументы,lookup_ip,"{""ip"":""bad-ip""}",soc,invalid_arguments,"{'error': 'invalid_arguments', 'details': 'Некорректный IP-адрес'}",True
+D09,аргументы,get_incident,"{""incident_id"":""INC-101"",""admin"":true}",soc,invalid_arguments (лишнее поле),"{'error': 'invalid_arguments', 'details': 'Недопустимый набор параметров'}",True
+D10,аргументы,get_incident,"{""incident_id"":101}",soc,invalid_arguments (тип),"{'error': 'invalid_arguments', 'details': 'Параметр должен быть строкой'}",True
+D11,аргументы,get_incident,не json,soc,invalid_arguments (JSON),"{'error': 'invalid_arguments', 'details': 'Expecting value: line 1 column 1 (char 0)'}",True
+D12,аргументы,get_incident,{},soc,invalid_arguments (нет поля),"{'error': 'invalid_arguments', 'details': 'Недопустимый набор параметров'}",True
+D13,аргументы,get_incident,"{""incident_id"":""INC-101\n""}",soc,invalid_arguments (перевод строки),"{'error': 'invalid_arguments', 'details': 'Неверный идентификатор инцидента (формат INC-101)'}",True
+D14,аргументы,get_incident,"{""incident_id"":""INC-١٢٣""}",soc,invalid_arguments (не-ASCII цифры),"{'error': 'invalid_arguments', 'details': 'Неверный идентификатор инцидента (формат INC-101)'}",True
+D15,аргументы,get_incident,"{""incident_id"":""INC-101'; DROP TABLE incidents;--""}",soc,invalid_arguments (SQL-подобная строка),"{'error': 'invalid_arguments', 'details': 'Неверный идентификатор инцидента (формат INC-101)'}",True
+D16,аргументы,search_knowledge_base,"{""query"":""ааааааааааааааааааааааааааааааааааааааааааааааа...",soc,invalid_arguments (длина > 180),"{'error': 'invalid_arguments', 'details': 'Длина поискового запроса: 1–180 символов'}",True
+D17,аргументы,get_incident,[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[...,soc,invalid_arguments (слишком длинные аргументы),"{'error': 'invalid_arguments', 'details': 'Аргументы должны быть JSON-строкой допустимой длины'}",True
+D18,допустимо,get_incident,"{""incident_id"":""INC-101""}",soc,data: severity=high,"{'data': {'severity': 'high', 'ip': '203.0.113.42', 'event': 'Много неудачных входов в тестовый сервис'}}",True
+D19,допустимо,get_incident,"{""incident_id"":""INC-999""}",soc,"data: {""error"":""not_found""}",{'data': {'error': 'not_found'}},True
+D20,допустимо,lookup_ip,"{""ip"":""203.0.113.42""}",soc,data: risk=high,"{'data': {'risk': 'high', 'tag': 'учебный индикатор'}}",True
+D21,допустимо,get_alert,"{""alert_id"":""ALR-201""}",soc,data: source=auth-service,"{'data': {'severity': 'high', 'source': 'auth-service', 'rule': 'Множественные неудачные входы', 'incident_id': 'INC-101",True
+D22,допустимо,search_knowledge_base,"{""query"":""high-инцидент дежурный""}",soc,data: KB-01,"{'data': [{'id': 'KB-01', 'doc_id': 'KB-01', 'source': 'Учебная база SOC: high-инциденты', 'text': 'При high-инциденте у",True
+D23,ACL базы знаний,search_knowledge_base,"{""query"":""блокировка адреса подтверждение""}",public,data: [] (KB-02 доступна только soc),{'data': []},True
+D24,ACL базы знаний,search_knowledge_base,"{""query"":""блокировка адреса подтверждение""}",soc,data: KB-02,"{'data': [{'id': 'KB-02', 'doc_id': 'KB-02', 'source': 'Учебная база SOC: блокировка адресов', 'text': 'Перед блокировко",True

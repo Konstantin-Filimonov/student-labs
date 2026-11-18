@@ -1,0 +1,23 @@
+{
+  "ALR-201": {
+    "severity": "high",
+    "source": "auth-service",
+    "rule": "Множественные неудачные входы",
+    "incident_id": "INC-101",
+    "ip": "203.0.113.42"
+  },
+  "ALR-202": {
+    "severity": "low",
+    "source": "uptime-monitor",
+    "rule": "Плановая проверка доступности",
+    "incident_id": "INC-102",
+    "ip": "192.0.2.10"
+  },
+  "ALR-203": {
+    "severity": "medium",
+    "source": "web-gateway",
+    "rule": "Аномальное число запросов",
+    "incident_id": null,
+    "ip": "198.51.100.7"
+  }
+}

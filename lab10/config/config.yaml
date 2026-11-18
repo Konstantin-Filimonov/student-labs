@@ -1,0 +1,31 @@
+# ЛР10. Tool Calling: конфигурация приложения и эксперимента.
+llm:
+  temperature: 0.0          # детерминированность для воспроизводимых тестов
+  max_tokens: 500
+  timeout_s: 120
+
+limits:
+  max_tool_calls: 3                # исполняемых вызовов на одно обращение к модели
+  max_raw_arguments_chars: 2000    # защита от чрезмерно больших аргументов
+  max_query_chars: 180             # длина поискового запроса
+  max_result_chars: 4000           # усечение результата инструмента перед передачей модели
+
+# Роли проверяются на СЕРВЕРЕ (диспетчер), а не в промпте.
+default_role: soc
+roles:
+  public:
+    tools: [search_knowledge_base]
+    kb_group: public               # видит только документы с access_group = public
+  soc:
+    tools: [get_incident, lookup_ip, search_knowledge_base, get_alert]
+    kb_group: soc                  # public + soc (как ACL из ЛР9)
+
+# search_knowledge_base: интерфейс одинаков для обеих реализаций.
+kb:
+  backend: lab09                   # lab09 — поиск из ЛР9; keyword — учебный заменитель из методички
+  lab09_src: ../lab09/src          # путь от корня lab10
+  lab09_experiment: hybrid_600_100_k4   # конфигурация поиска из lab09/config/config.yaml
+
+eval:
+  repeats: 3
+  scenarios: data/scenarios.jsonl
