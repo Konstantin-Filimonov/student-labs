@@ -1,0 +1,111 @@
+Для корпоративного заказчика аудит защищённости и решения для построения SOC можно заказать непосредственно у российских разработчиков средств ИБ либо через системных интеграторов, которые подбирают, поставляют и внедряют продукты нескольких производителей.
+
+Я бы выделил следующие компании.
+
+## **1. Компании для заказа аудита защищённости**
+
+[Отгрузки Positive Technologies в 2023 году выросли на 75%](https://images.openai.com/static-rsc-4/MbExTtTiE1xWmt7pZe5ZpwPnwBYkWU1IhtxKQQUuKbQWBv4JC1JFx93HsAd-2SJPaqGTWJw6Lqbk9lt2LUSul-Z6fJKs0D53VwJUUhakOs332tS2oMHLiEoh9_cLSH2jOocD-KeUQXeIrG7BwFbuwHZg_3428d9pkdnzRijHQyM?purpose=inline)
+
+**Positive Technologies**
+
+- Пентест и Red Team.
+- Аудит инфраструктуры и приложений.
+- Поиск уязвимостей.
+- Анализ защищённости и расследование инцидентов.
+
+[Официальный сайт](https://ptsecurity.com/?utm_source=chatgpt.com)
+
+[«РТК-Солар»: Средний ущерб от кибератак у крупных компаний составляет около ₽20 млн / Хабр](https://images.openai.com/static-rsc-4/W57nG4sw2nQt7-9PPTDbIKzNeLsCpW0IKXoW-P1MbIdyXhKi9Ig5MYdvl7wWu5W5JRIgsWhwvV_5BBqfbCrB2nqgpJc1ErXvKgPJ044F2D0_jYW1EdnuQcMqShpUJxXre-GG7KU8_tHek1QRUDxwgZZBFXG3OoNBX81Sccd_rEw?purpose=inline)
+
+**ГК Солар**
+
+- Комплексная оценка защищённости.
+- Пентест и Red Team.
+- Расследование киберинцидентов.
+- Аудит безопасности приложений.
+
+[Официальный сайт](https://rt-solar.ru/?utm_source=chatgpt.com)
+
+[image](https://www.google.com/s2/favicons?domain=https://rt-solar.ru\&sz=32)
+
+Солар
+
+[Логотип BI.ZONE: правила использования](https://images.openai.com/static-rsc-4/tnukprfMmyx0Y5jE2qUvMX8u-NunCBe72xC62rilZSa7ZKCH90DPlwQNEprGp7s8rz93Fq2VWN43xTwmemyBur1b-w397VkwbRy4Ni4jKihrbOIL7C-bpxA7J48u9VvUjOpfgO5qiTZISmZug7B-XNBtpGU6D-f3cXGk8JpagoM?purpose=inline)
+
+**BI.ZONE**
+
+- Аудит инфраструктуры.
+- Тестирование на проникновение.
+- Поиск уязвимостей.
+- Мониторинг и реагирование на угрозы.
+
+[Официальный сайт](https://bi.zone/?utm_source=chatgpt.com)
+
+[Innostage](https://images.openai.com/static-rsc-4/H6emalTNCsa2dyNMqiHVlyaHvAxqrr9hRxmLoPsL4yMJ7BjuUa6Bc9EIPykyF3TPTOHogxtYebYLFSy5gFHRVSMh9b_ZIdCkPWdb_5HD0WDVpicI27OXr1XxBuAGdpsGXEnTC3RHe2TemRdFmVVAyCQaMhVGuNo4qxd3SMGqQ4Y?purpose=inline)
+
+**Innostage**
+
+- Аудит информационной безопасности.
+- Проектирование систем защиты.
+- Построение SOC.
+- Интеграция средств мониторинга.
+
+[Официальный сайт](https://innostage-group.ru/?utm_source=chatgpt.com)
+
+## **2. Где заказать продукты для SOC**
+
+Если задача заключается не только в аудите, но и в приобретении программного обеспечения для собственного центра мониторинга ИБ, стоит рассмотреть следующие решения.
+
+| Компания                    | Продукты и направление              |
+| --------------------------- | ----------------------------------- |
+| **Positive Technologies**   | MaxPatrol SIEM, MaxPatrol VM, PT X  |
+| **BI.ZONE**                 | BI.ZONE SIEM, EDR, SOC              |
+| **R-Vision**                | R-Vision SIEM, SOAR, VM             |
+| **Лаборатория Касперского** | Kaspersky KUMA, EDR, XDR            |
+| **ГК Солар**                | Solar SIEM, SOC, MSS                |
+| **Газинформсервис**         | Ankey SIEM, средства мониторинга ИБ |
+
+[image](https://www.google.com/s2/favicons?domain=https://www.anti-malware.ru\&sz=32)
+
+Anti-Malware.ru+2
+
+## **3. К кому обратиться для комплексного внедрения**
+
+Если необходим не отдельный продукт, а готовый проект под ключ, можно обратиться к интеграторам:
+
+- **Инфосистемы Джет** — [сайт](https://jet.su/?utm_source=chatgpt.com). Проектирование и внедрение комплексных систем ИБ.
+- **Информзащита** — [сайт](https://www.infosec.ru/?utm_source=chatgpt.com). Аудит, консалтинг и внедрение средств защиты.
+- **КРОК** — [сайт](https://www.croc.ru/?utm_source=chatgpt.com). Интеграция инфраструктурных и защитных решений.
+- **КОРСТЕК** — [сайт](https://korstek.ru/?utm_source=chatgpt.com). Поставка продуктов Positive Technologies, Solar и других производителей, сопровождение внедрения.&#x20;
+
+  [image](https://www.google.com/s2/favicons?domain=https://korstek.ru\&sz=32)
+
+  системный интегратор информационной безопасности
+
+
+
+## **4. Что я рекомендую запросить у поставщика**
+
+При обращении за коммерческим предложением стоит запросить:
+
+1. Коммерческое предложение с перечнем лицензий и услуг.
+2. Техническое описание предлагаемых решений.
+3. Подтверждение совместимости с существующей инфраструктурой.
+4. Документы о сертификации ФСТЭК России и ФСБ России, если они необходимы для проекта.
+5. План внедрения и сроки реализации.
+6. Условия технической поддержки и SLA.
+7. Примеры реализованных проектов для корпоративных заказчиков.
+
+## **5. Кого выбрать в зависимости от задачи**
+
+| Задача                         | Кого рассмотреть                         |
+| ------------------------------ | ---------------------------------------- |
+| Независимый аудит защищённости | Positive Technologies, Solar             |
+| Пентест и Red Team             | Positive Technologies, BI.ZONE           |
+| Покупка SIEM                   | Positive Technologies, BI.ZONE, R-Vision |
+| Построение SOC под ключ        | Solar, BI.ZONE, Инфосистемы Джет         |
+| Внешний SOC / SOCaaS           | BI.ZONE, Solar                           |
+
+**Мой совет:** для крупного корпоративного заказчика разумно запросить предложения минимум у трёх компаний: Positive Technologies, BI.ZONE и Solar. Сравнить не только стоимость лицензий, но и стоимость внедрения, сопровождения, обучения сотрудников и дальнейшего развития SOC.
+
+При этом важно разделять покупку SIEM для собственного SOC и заказ внешнего SOC как услуги. Это разные модели эксплуатации и финансирования.

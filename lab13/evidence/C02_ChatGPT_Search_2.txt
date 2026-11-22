@@ -1,0 +1,115 @@
+Для внедрения решений кибербезопасности корпоративному заказчику следует обращаться прежде всего к **системным интеграторам в области информационной безопасности (ИБ)** либо непосредственно к производителям средств защиты, если требуется внедрение их конкретных продуктов.
+
+### **1. К каким компаниям можно обратиться**
+
+Ниже несколько российских компаний, работающих с корпоративными заказчиками.
+
+[Отгрузки Positive Technologies в 2023 году выросли на 75%](https://images.openai.com/static-rsc-4/MbExTtTiE1xWmt7pZe5ZpwPnwBYkWU1IhtxKQQUuKbQWBv4JC1JFx93HsAd-2SJPaqGTWJw6Lqbk9lt2LUSul-Z6fJKs0D53VwJUUhakOs332tS2oMHLiEoh9_cLSH2jOocD-KeUQXeIrG7BwFbuwHZg_3428d9pkdnzRijHQyM?purpose=inline)
+
+**Positive Technologies**
+
+Разработка и внедрение решений для анализа защищённости, обнаружения атак, мониторинга и расследования инцидентов.
+
+Сайт: [ptsecurity.com](https://ptsecurity.com/?utm_source=chatgpt.com)
+
+[ICL Services представила дроншеринг-сервис и умную систему для школьных столовых на итоговой коллегии Минцифры РТ - ict-online.ru](https://images.openai.com/static-rsc-4/2YEdKEe9yqQknv5R3zvuJvRKZmaBqrapAHNkNP3M_rj3AyTdKOXlIfU0ef3LOBb6OukT-vKJaabxzHOzQDw8YFOBPvQ3EnEWZ7ralFw-tNhjZys4JFWtDXtaT5gKk0N8tkROotlsn6kMro6uD5fICxh_bUJeUPH2UCWpfnqJRoA?purpose=inline)
+
+**ICL**
+
+Аудит ИБ, проектирование систем защиты, внедрение SIEM, SOC, DLP и сопровождение инфраструктуры.
+
+Сайт: [icl.ru](https://icl.ru/?utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://icl.ru\&sz=32)
+
+icl.ru+1
+
+
+
+[STEP LOGIC аттестовал DataSpace Cloud на соответствие требованиям к защите персональных данных | Пресс-центр DataSpace](https://images.openai.com/static-rsc-4/y1Xdcvw7nadExEBAH76d08BOi_vC9NQdsIbfEWU4So-4wi3_dLH_i-pLop3u2cuWG5R1LjgfuHvSvKosemrdIbz7DLs4NtgLCpY2BU1N1Qp4Mg9WTx3d3o0CcyiyeG6f_R4SdnNayi_8_9RvyppolptyHoHXdA-LWxkvAlRXVRg?purpose=inline)
+
+**STEP LOGIC**
+
+Аудит информационной безопасности, проектирование и внедрение средств защиты, создание SOC и аутсорсинг ИБ.
+
+Сайт: [step.ru](https://step.ru/directions/cybersecurity/?utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://step.ru\&sz=32)
+
+step.ru
+
+
+
+[Партнеры «Национальный аттестационный центр»: «Конфидент»](https://images.openai.com/static-rsc-4/-BOzgrppKXebceRYiF6gVlnNKOG6JHxgsfakKa-52F68bvkU4HZY8g-wNQ_B5wo7wkcU20_MGDo_-ndVgXYAAnM-g8nw5fAw2ZLWeCh2Rha2tG7-m30z5BBmMV6uo9kjqGKivq7CX_pO4Kb-YzlJn8zV2nCUU07qTRFNRJRWSoA?purpose=inline)
+
+**Конфидент-Интеграция**
+
+Комплексное построение систем ИБ, анализ рисков, разработка документации, внедрение и сопровождение СЗИ.
+
+Сайт: [confident.ru](https://www.confident.ru/konfident-integratsiya/?utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.confident.ru\&sz=32)
+
+confident.ru
+
+
+
+[Форум ГосСОПКА](https://images.openai.com/static-rsc-4/pLOjjBWdbVCH-oAMnlohlZLzmOPy3LnHNkDcRciBhCqY1znIdbXox5_6a9c-gtuOdHHyoJxvNJdlkyTToxoLcuNXQnnLN8y-diNHzF4hR7FWTpiw-twxWs2ezSYt4jz6M3niQdjKsfJ451Ic9IGfGq4W0LIUGSTmInN_oynqm04?purpose=inline)
+
+**Angara Security**
+
+Интеграция решений ИБ, поставка программного обеспечения, проектирование и сопровождение систем защиты.
+
+Сайт: [angara-security.ru](https://angara-security.ru/?utm_source=chatgpt.com).
+
+[ITB Ltd | B2B Expos](https://images.openai.com/static-rsc-4/Kcp5Umh0JUCc1PerqAXRkTQGs2-YcopmKXiTQrzVK38DWKeOy7TeTbEgPkHiBhAkbx_4MTYdTpJ_uouuCWEr0CqevzdWm1q2HPSg1uDqDc5i7IgJu1_l_rgI58aqNa__O7v0ABM80NnqijeB7Uk5297mBSVeJd8wqrhtnqz1Er8?purpose=inline)
+
+**ИТБ**
+
+Аудит защищённости, проектирование систем защиты, внедрение, мониторинг и расследование инцидентов.
+
+Сайт: [itb.spb.ru](https://www.itb.spb.ru/?utm_source=chatgpt.com).&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.itb.spb.ru\&sz=32)
+
+itb.spb.ru
+
+
+
+### **2. К кому обращаться в зависимости от задачи**
+
+| Задача заказчика                     | К кому обращаться                            |
+| ------------------------------------ | -------------------------------------------- |
+| Внедрение SIEM и SOC                 | Системный интегратор или MSSP                |
+| Анализ защищённости и пентест        | Специализированная компания по аудиту ИБ     |
+| Внедрение антивирусной защиты и EDR  | Производитель или его авторизованный партнёр |
+| Защита от утечек (DLP)               | Интегратор решений DLP                       |
+| Защита сетевой инфраструктуры        | Сетевой интегратор ИБ                        |
+| Комплексное построение системы ИБ    | Крупный системный интегратор                 |
+| Соответствие требованиям ФСТЭК и ФСБ | Компания с необходимыми лицензиями           |
+
+### **3. Что запросить у потенциального подрядчика**
+
+Перед заключением договора желательно запросить:
+
+1. Коммерческое предложение с описанием предлагаемых решений.
+2. Опыт реализации аналогичных проектов.
+3. Подтверждение партнёрского статуса у производителей.
+4. Лицензии ФСТЭК России и ФСБ России, если они необходимы для выполняемых работ.
+5. Сертификаты соответствия на применяемые средства защиты, когда это требуется.
+6. План внедрения с этапами, сроками и стоимостью.
+7. Условия технической поддержки и сопровождения.
+
+### **4. Моя рекомендация**
+
+Для крупного корпоративного заказчика разумнее начать с системного интегратора, который способен выполнить полный цикл работ:
+
+- обследование инфраструктуры;
+- аудит и оценку рисков;
+- подбор средств защиты;
+- проектирование системы ИБ;
+- поставку и внедрение решений;
+- интеграцию с существующими системами;
+- обучение сотрудников и дальнейшее сопровождение.
+
+**В качестве отправной точки я бы рассмотрел ICL, STEP LOGIC и Angara Security** для комплексного внедрения, а Positive Technologies привлёк бы при необходимости специализированных решений для выявления и анализа киберугроз.

@@ -1,0 +1,146 @@
+В России разработкой продуктов для мониторинга, обнаружения и защиты от киберугроз занимаются несколько крупных компаний и специализированных ИБ-вендоров. Они создают системы мониторинга событий безопасности (SIEM), антивирусные решения, средства обнаружения атак (IDS/IPS, NDR), системы защиты конечных устройств (EDR/XDR) и платформы автоматизированного реагирования (SOAR).
+
+## **Основные российские разработчики**
+
+[Отгрузки Positive Technologies в 2023 году выросли на 75%](https://images.openai.com/static-rsc-4/MbExTtTiE1xWmt7pZe5ZpwPnwBYkWU1IhtxKQQUuKbQWBv4JC1JFx93HsAd-2SJPaqGTWJw6Lqbk9lt2LUSul-Z6fJKs0D53VwJUUhakOs332tS2oMHLiEoh9_cLSH2jOocD-KeUQXeIrG7BwFbuwHZg_3428d9pkdnzRijHQyM?purpose=inline)
+
+**1. Positive Technologies**
+
+Один из крупнейших российских разработчиков средств информационной безопасности.
+
+Основные продукты:
+
+- MaxPatrol SIEM — мониторинг событий ИБ.
+- MaxPatrol EDR — обнаружение угроз на рабочих станциях.
+- PT Network Attack Discovery — обнаружение сетевых атак.
+- PT Sandbox — анализ подозрительных файлов.
+
+Сайт: [ptsecurity.com](https://ptsecurity.com/ru-ru/?utm_source=chatgpt.com).
+
+[Kaspersky logo, Vector Logo of Kaspersky brand free download (eps, ai, png, cdr) formats](https://images.openai.com/static-rsc-4/lJFJghkPOQv6-VESSWP4XUK1DDNU1EW4hbHrcLs6dzukW144balyda14Q7y_8BvVT1SNYQ6jSjFE5zQS4rVW5Nolv8FDRMl_J9psFRJ7Zd_2pVY3_uWzd10h-4PvfXIn01uU28tV-t6zhmg6LTMOACVm0cqzf-Ov0CjC7_mEsxo?purpose=inline)
+
+**2. Лаборатория Касперского**
+
+Разрабатывает антивирусные технологии и комплексные платформы защиты организаций.
+
+Основные продукты:
+
+- Kaspersky KUMA — мониторинг событий безопасности (SIEM).
+- Kaspersky EDR Expert — обнаружение и расследование угроз.
+- Kaspersky Symphony — комплексная защита инфраструктуры.
+- Kaspersky Industrial CyberSecurity — защита промышленных систем.
+
+Сайт: [kaspersky.ru](https://www.kaspersky.ru/?utm_source=chatgpt.com).
+
+[Логотип BI.ZONE: правила использования](https://images.openai.com/static-rsc-4/tnukprfMmyx0Y5jE2qUvMX8u-NunCBe72xC62rilZSa7ZKCH90DPlwQNEprGp7s8rz93Fq2VWN43xTwmemyBur1b-w397VkwbRy4Ni4jKihrbOIL7C-bpxA7J48u9VvUjOpfgO5qiTZISmZug7B-XNBtpGU6D-f3cXGk8JpagoM?purpose=inline)
+
+**3. BI.ZONE**
+
+Специализируется на обнаружении, предотвращении и расследовании кибератак.
+
+Основные продукты:
+
+- BI.ZONE EDR — защита конечных устройств.
+- BI.ZONE SIEM — мониторинг событий ИБ.
+- BI.ZONE SOAR — автоматизация реагирования.
+- BI.ZONE Threat Intelligence — анализ информации об угрозах.
+
+Сайт: [bi.zone](https://bi.zone/?utm_source=chatgpt.com).
+
+[HolyJS 2019 Moscow | Партнер R-Vision](https://images.openai.com/static-rsc-4/qlyaIYisIM8Yh63kchLyVO-DyOwO-71abbtMltXMa745jhB3QXBFG36CxcVqlcE1omb-l-Mi5TWF7Lb1WtK6FYBmSbpd7REamM3hYCr_CmiXgLc6kkRaI-Petlt3MvkL_Zknybo22qyrafePgdh6SeMiEhCcfw8F6egTaJ32mdk?purpose=inline)
+
+**4. R-Vision**
+
+Разрабатывает платформы для управления информационной безопасностью и мониторинга инцидентов.
+
+Основные продукты:
+
+- R-Vision SIEM — сбор и анализ событий безопасности.
+- R-Vision SOAR — автоматизация реагирования.
+- R-Vision TIP — анализ данных о киберугрозах.
+- R-Vision EDR — защита конечных устройств.
+
+Сайт: [rvision.ru](https://rvision.ru/?utm_source=chatgpt.com).
+
+[«РТК-Солар»: Средний ущерб от кибератак у крупных компаний составляет около ₽20 млн / Хабр](https://images.openai.com/static-rsc-4/W57nG4sw2nQt7-9PPTDbIKzNeLsCpW0IKXoW-P1MbIdyXhKi9Ig5MYdvl7wWu5W5JRIgsWhwvV_5BBqfbCrB2nqgpJc1ErXvKgPJ044F2D0_jYW1EdnuQcMqShpUJxXre-GG7KU8_tHek1QRUDxwgZZBFXG3OoNBX81Sccd_rEw?purpose=inline)
+
+**5. ГК «Солар»**
+
+Разрабатывает решения для комплексной защиты корпоративных информационных систем.
+
+Основные направления:
+
+- Solar SIEM — мониторинг событий ИБ.
+- Solar EDR — обнаружение угроз на конечных устройствах.
+- Solar NGFW — защита сетевого периметра.
+- Solar Dozor — предотвращение утечек информации (DLP).
+
+Сайт: [rt-solar.ru](https://rt-solar.ru/?utm_source=chatgpt.com).
+
+[Senior С++ разработчик в SearchInform | Эйч — сервис развития карьеры | Эйч](https://images.openai.com/static-rsc-4/4KsPcOE8NvYE3C6gu8qoCF8QWet1I3iEuM-1ZA8mHQWXavwtKpTU6fbZJa1BAj26zff1Xamhj9V-57GmxfxM1Nf-erGw23Pckghz2iM8mSPlQvSNAow-vqKROh0HPoi048-CMauMFEWxOU1dJHhyDCKTE-HJaJ90sDUt0nmWBUQ?purpose=inline)
+
+**6. СёрчИнформ**
+
+Специализируется на контроле информационных потоков, предотвращении утечек и мониторинге событий.
+
+Основные продукты:
+
+- SearchInform SIEM — мониторинг событий безопасности.
+- SearchInform КИБ — комплексная защита от внутренних угроз.
+- FileAuditor — контроль файловых операций.
+
+Сайт: [searchinform.ru](https://searchinform.ru/?utm_source=chatgpt.com).
+
+[Лартех стал партнером Инфотекс | Lartech](https://images.openai.com/static-rsc-4/nePQeWu4ypx4eg_JHRgGnh82hHOHFgBXxp2Ydo5ry-zxdmEsSr-bPNe9CnX0AJJ_f6L-ysrZUR2_xzTouL_KzY3Qe-pEQOSgHGufjHM3xaUWiRdN5c5PZYToOIGH_klDQEIgxVc4-E7o5zdNHE_v5Ki3ixfA8xjEMDnsWS98Nys?purpose=inline)
+
+**7. ИнфоТеКС**
+
+Разрабатывает средства криптографической защиты информации, сетевой безопасности и защиты рабочих станций.
+
+Основные продукты:
+
+- ViPNet — защищённые сети и VPN.
+- ViPNet EndPoint Protection — защита конечных устройств.
+- ViPNet IDS — обнаружение сетевых атак.
+
+Сайт: [infotecs.ru](https://infotecs.ru/?utm_source=chatgpt.com).
+
+[Главная](https://images.openai.com/static-rsc-4/q9ZPTQFI-6Zz9ct-wy8n3CVR9LQZWyTQf_XQGb3i7ewlnqig3fsfzDvlxhRB8sV93urI8HU3oUt7tdNPA6bQ66gFtf5h4OxKlPwHTxrJ2clWEio11T4zMhS1bcilL1FgkJKZFcDb1yNIjJu_xfh5M0vWQtVa3RrTS52o1-WbsFU?purpose=inline)
+
+**8. RuSIEM**
+
+Специализированный российский разработчик решений для мониторинга событий информационной безопасности.
+
+Основные продукты:
+
+- RuSIEM — сбор и корреляция событий безопасности.
+- RuSIEM Analytics — аналитика событий с применением машинного обучения.
+- RuSIEM IoC — работа с индикаторами компрометации.
+
+Сайт: [rusiem.com](https://rusiem.com/?utm_source=chatgpt.com).
+
+## **Сравнение по направлениям деятельности**
+
+| Компания                | Основная специализация                            |
+| ----------------------- | ------------------------------------------------- |
+| Positive Technologies   | Мониторинг, анализ защищённости, обнаружение атак |
+| Лаборатория Касперского | Антивирусная защита, EDR/XDR, SIEM                |
+| BI.ZONE                 | Обнаружение угроз, SOC, реагирование              |
+| R-Vision                | SIEM, SOAR, управление ИБ                         |
+| ГК «Солар»              | Комплексная защита инфраструктуры                 |
+| СёрчИнформ              | DLP, SIEM, защита от внутренних угроз             |
+| ИнфоТеКС                | Криптография, защита сетей и устройств            |
+| RuSIEM                  | Мониторинг и анализ событий ИБ                    |
+
+## **Кого стоит рассматривать в первую очередь?**
+
+Если задача заключается именно в выборе поставщика решений для мониторинга и защиты от киберугроз, я бы выделил:
+
+- **Positive Technologies** — комплексные средства обнаружения и расследования атак.
+- **Лаборатория Касперского** — антивирусная защита, мониторинг и защита конечных устройств.
+- **BI.ZONE** — обнаружение угроз и организация мониторинга через SOC.
+- **R-Vision** — построение систем мониторинга и автоматизации реагирования.
+
+Для более полного изучения российского рынка можно использовать [сравнение российских SIEM-систем](https://securitymedia.org/analytics/obzor-produktov-ib-klassa-siem.html?utm_source=chatgpt.com) и [обзор российских EDR-решений](https://securitymedia.org/class/edr/?utm_source=chatgpt.com) за 2026 год.
+
+**Важный момент:** при выборе разработчика необходимо проверять не только функциональность продукта, но и наличие записи в реестре российского ПО, сертификатов ФСТЭК России или ФСБ России (если они требуются для конкретной системы), а также совместимость с существующей инфраструктурой предприятия.

@@ -1,0 +1,114 @@
+**Positive Technologies** (PT) — российская технологическая компания, специализирующаяся на разработке программных продуктов, аппаратно-программных комплексов и сервисов для обеспечения информационной безопасности.
+
+Если говорить простыми словами, компания разрабатывает инструменты, которые помогают организациям **обнаруживать хакеров, предотвращать кибератаки, находить уязвимости и защищать IT-инфраструктуру**.
+
+## **1. Основные направления деятельности**
+
+Компания работает по нескольким направлениям:
+
+- **Анализ защищённости** — поиск уязвимостей в информационных системах, сетях и приложениях.
+- **Мониторинг информационной безопасности** — обнаружение подозрительной активности и расследование инцидентов.
+- **Защита от кибератак** — выявление и блокирование действий злоумышленников.
+- **Безопасность сетевой инфраструктуры** — контроль сетевого трафика и защита корпоративных сетей.
+- **Промышленная кибербезопасность** — защита АСУ ТП, производственных предприятий и объектов критической информационной инфраструктуры.
+- **Безопасная разработка ПО** — выявление уязвимостей в программном коде.
+
+[image](https://www.google.com/s2/favicons?domain=https://ptsecurity.com\&sz=32)
+
+ptsecurity.com+1
+
+## **2. Основные продукты Positive Technologies**
+
+Вот наиболее известные продукты компании:
+
+[MaxPatrol SIEM, цена лицензии, описание](https://images.openai.com/static-rsc-4/U6Dj7NOdEA1OWvkWsKpylngwtdS-00jE39vKkcGKJPu5m6ke-61AA6J1-VWIDDJ6tCYV7eCyQ13yI8lhUGhYcyiczMDX1SbfARr7AgwYeBxwJ-bE24PWUTwBCZOa2J4DVcJcGL2F_GE_Yhw_Cptktb2nbdjtCFQUDsXeGRrGo-M?purpose=inline)
+
+**MaxPatrol SIEM**
+
+Система мониторинга информационной безопасности. Собирает события с серверов, рабочих станций и сетевого оборудования, выявляет подозрительную активность и помогает расследовать инциденты.
+
+[MaxPatrol VM](https://images.openai.com/static-rsc-4/9byxlzFsM2oCpPrjaa22CDq36zHXozAtq1YrZmV-JGNnFvmAlYDsT8rJadBk2Zcgq27LxV-9T-ZqhEA0okVxZWTbWYMhn6nF8uQ831mHQphCWDoDYVnwfnSjITxuIwG7i0mmZrRMXvxuhblErxkkmyYPo4a8rxFdyTlQFlFMEiQ?purpose=inline)
+
+**MaxPatrol VM**
+
+Система управления уязвимостями. Помогает обнаруживать слабые места в IT-инфраструктуре и определять приоритеты их устранения.
+
+[Продукты, решения, сервисы – Годовой отчет Positive Technologies 2023](https://images.openai.com/static-rsc-4/Z1w5I1oORbAo_JOhH5GNHnYhkGYOm4NliIG-GQCD0B2WQFldF_gCJCbf97Rk2hu27sbz5DsamNdwMqumI5YAZOmqgpezKj-nQCAw3RkLw8bMfPH9d94_sUnNp7075eeHixojvO-kR3QsUXZCu5WkGEe1Di_09GN1EIdqbENVRF0?purpose=inline)
+
+**PT Network Attack Discovery**
+
+Система анализа сетевого трафика, предназначенная для обнаружения сетевых атак и подозрительной активности.
+
+[PT Sandbox · Bug Bounty](https://images.openai.com/static-rsc-4/l8SdxvUqy0PcbymgG-o9uHMpTNrACDa84rRPLLVzV8HVQpj6sL93fsk-keDVuiY6qKoTSa0rX3IsyDsX11ZVoeE9LADOLDddaSv0UYTd_EgedSmvKjC5RjFGFHhNTdOAD2JaQ2zg5GEby6RopBR_MWZuj_ov5WirMU67P9i42Ug?purpose=inline)
+
+**PT Sandbox**
+
+Анализирует подозрительные файлы в изолированной среде, чтобы определить, содержат ли они вредоносный код.
+
+[Продукты, решения, сервисы – Годовой отчет Positive Technologies 2024](https://images.openai.com/static-rsc-4/89zDJk1k8EqoNsMVbKpUzaiKR7MiELDSzyCzLhYTptF-4Q5JGgiEjdga4ptgOZNW8vn7UyUN29dZn1IfNeAgbpXe8w8QRK9DP0NABrZDeIM4uBjgGUxosdH_R9x2x47mKcwTmkeHrQW1PsWcYETx6wrogpJ_Uk2Oh-9VfXreZao?purpose=inline)
+
+**PT Application Inspector**
+
+Инструмент анализа исходного кода приложений для выявления уязвимостей и ошибок безопасности.
+
+[MaxPatrol EDR 7.2 теперь поддерживает в три раза больше операционных систем](https://images.openai.com/static-rsc-4/zW3U_aj0rZDtA4buGX0FSuoyOy8rE35eJhk-xA7KJuZe87eAymKsmW7nU_d-59xltTMb_4ppqj8h4lzO60umvPP5VKLOp-IbollOTN9Pl8NUJXL6te7tc95zNrSuwq3eSJl8NKqGfFBZre7n-S_YledGZLosickacqqN-P3nlVE?purpose=inline)
+
+**MaxPatrol EDR**
+
+Средство обнаружения и реагирования на угрозы на конечных устройствах: компьютерах и серверах.
+
+[image](https://www.google.com/s2/favicons?domain=https://ar2025.ptsecurity.com\&sz=32)
+
+Годовой отчет Positive Technologies 2025+1
+
+## **3. Чем компания занимается помимо разработки ПО?**
+
+Positive Technologies также:
+
+- Проводит исследования в области информационной безопасности.
+- Выполняет тестирование на проникновение (пентесты).
+- Оказывает услуги по анализу защищённости организаций.
+- Помогает создавать и совершенствовать системы защиты информации.
+- Проводит мероприятия и соревнования по практической кибербезопасности.
+
+Например, компания организует известные мероприятия **Positive Hack Days** и **The Standoff**, где специалисты исследуют защищённость информационных систем и демонстрируют реальные сценарии кибератак.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://ar2025.ptsecurity.com\&sz=32)
+
+Годовой отчет Positive Technologies 2025+1
+
+
+
+## **4. Кто использует продукты компании?**
+
+Основные заказчики:
+
+- Банки и финансовые организации.
+- Государственные учреждения.
+- Промышленные предприятия.
+- Телекоммуникационные компании.
+- Организации, эксплуатирующие объекты КИИ.
+- Крупный и средний бизнес.
+
+## **5. Если рассматривать Positive Technologies с точки зрения информационной безопасности**
+
+Важно понимать, что Positive Technologies — прежде всего **разработчик средств защиты информации (СЗИ)**, а не антивирусная компания в привычном понимании.
+
+Её продукты могут использоваться для построения целой системы защиты организации:
+
+| Задача                       | Продукт                     |
+| ---------------------------- | --------------------------- |
+| Мониторинг событий ИБ        | MaxPatrol SIEM              |
+| Поиск уязвимостей            | MaxPatrol VM                |
+| Обнаружение сетевых атак     | PT Network Attack Discovery |
+| Анализ подозрительных файлов | PT Sandbox                  |
+| Защита конечных устройств    | MaxPatrol EDR               |
+| Анализ безопасности ПО       | PT Application Inspector    |
+
+**Главное:** Positive Technologies разрабатывает инструменты для защиты информационных систем от современных киберугроз. Её решения позволяют не просто устанавливать защиту на компьютеры, а контролировать безопасность всей IT-инфраструктуры организации.
+
+Официальные ресурсы:
+
+- [Сайт Positive Technologies](https://ptsecurity.com/about/?utm_source=chatgpt.com)
+- [Каталог продуктов и решений](https://ar2025.ptsecurity.com/products-solutions-services?utm_source=chatgpt.com)
+- [Годовой отчёт компании за 2025 год](https://ar2025.ptsecurity.com/about-company?utm_source=chatgpt.com)

@@ -1,0 +1,161 @@
+На российском рынке есть несколько крупных поставщиков средств информационной безопасности, которые работают с корпоративными заказчиками, банками, промышленными предприятиями, телекоммуникационными компаниями и государственными организациями.
+
+Их можно разделить на две группы: **разработчики собственных средств защиты (вендоры)** и **системные интеграторы**, которые подбирают, внедряют и сопровождают комплексные решения.
+
+## **1. Крупные российские поставщики средств ИБ**
+
+[positive technologies](https://images.openai.com/static-rsc-4/e2hIjMyYFK3n9rr6NelARh49P1ON6W9NjMX5bFU7xHUw5jd9WYWBH9heuA4WYy05wicnHBcL7GtsscvgB_4mqg7CBcxNymZCNKEhKGvwu_QXteQzVfJ7EN1D6pmhfp0vHNAv_jSQvD9Iv23gYum7ZeIYUfN3bhnArcd_Kn58bOA?purpose=inline)
+
+**1. Positive Technologies**
+
+Разрабатывает решения для обнаружения и предотвращения кибератак, анализа защищённости и мониторинга инфраструктуры.
+
+- MaxPatrol SIEM, MaxPatrol VM.
+- PT Network Attack Discovery.
+- PT XDR.
+- Анализ защищённости и пентесты.
+
+Клиенты: Лукойл, Магнит, Россети.
+
+[Официальный сайт](https://www.ptsecurity.com/ru-ru/?utm_source=chatgpt.com)
+
+[Kaspersky Endpoint Security for Business Core review | IT Pro](https://images.openai.com/static-rsc-4/zNVFLTUmy3UZ_p37yJ-pbl8VMwQS4xCN4phh5izmcQ850elYDrs09pF6n5DCHqf0jZkodkBUMWilf1lj4ktJU1-CYQDLDVF_4K8bkh-P32ZVECmLmqMGFyBcn9brXwyWgj8mgP5UYsnCgpSwdOYDMdhsG6i49gmkq5IjFUvge-8?purpose=inline)
+
+**2. Лаборатория Касперского**
+
+Один из крупнейших разработчиков корпоративных решений для защиты информационных систем.
+
+- Kaspersky Endpoint Security.
+- Kaspersky KUMA (SIEM).
+- Kaspersky EDR и XDR.
+- Защита серверов и рабочих станций.
+- Сервисы обнаружения угроз.
+
+Клиенты: Росатом, Альфа-Банк, Россети.
+
+[Официальный сайт](https://www.kaspersky.ru/?utm_source=chatgpt.com)
+
+[Партнеры «Национальный аттестационный центр»: «Ростелеком-Солар»](https://images.openai.com/static-rsc-4/waiKuYt-3nnOoONe3Jf0UgBKPIsspjDjCZ3FwEiZ_Tx0VxX2vNppeIW2tOf8IyC4w7cdeeaTAtEhzXD_RgVDNeFPLNN3f92nmP4M4QeQDf5c90OP46WM960ff8EeJcEY_9_wElXtrhZWS_IpW-VZu0t7ysaTzXZvLycHJJaReZk?purpose=inline)
+
+**3. ГК «Солар»**
+
+Предлагает комплексные решения по защите корпоративной инфраструктуры и управляемые сервисы информационной безопасности.
+
+- Solar SIEM.
+- Solar NGFW.
+- Solar Dozor (DLP).
+- SOC и мониторинг киберугроз.
+- Аудит и защита инфраструктуры.
+
+Работает с крупными организациями и государственными структурами.
+
+[Официальный сайт](https://rt-solar.ru/?utm_source=chatgpt.com)
+
+[Логотип BI.ZONE: правила использования](https://images.openai.com/static-rsc-4/tnukprfMmyx0Y5jE2qUvMX8u-NunCBe72xC62rilZSa7ZKCH90DPlwQNEprGp7s8rz93Fq2VWN43xTwmemyBur1b-w397VkwbRy4Ni4jKihrbOIL7C-bpxA7J48u9VvUjOpfgO5qiTZISmZug7B-XNBtpGU6D-f3cXGk8JpagoM?purpose=inline)
+
+**4. BI.ZONE**
+
+Специализируется на комплексной кибербезопасности и защите крупных корпоративных инфраструктур.
+
+- BI.ZONE EDR.
+- SIEM и SOC.
+- Защита веб-приложений.
+- Управление уязвимостями.
+- Пентесты и расследование инцидентов.
+
+Клиенты: Сбер, Ozon, Норникель.
+
+[Официальный сайт](https://bi.zone/?utm_source=chatgpt.com)
+
+[Главная](https://images.openai.com/static-rsc-4/HYiTKv9kJbnJETRSF6CdfOggua9WTr3H6pC2P_p2VeNR383E1L5wKwRSSTP2s-Bx7tUQ8BWNrL0n44jMNGEfg4V6SOo-oNaRCWN9NrP70MvLHImipboHRCIYzna71MndXZk-2r_HhZdQ6lmtelXCfnhuluEMWPWkA4NEVp3Y670?purpose=inline)
+
+**5. UserGate**
+
+Разработчик решений для сетевой безопасности.
+
+- UserGate NGFW.
+- UserGate SIEM.
+- Межсетевое экранирование.
+- Контроль сетевого трафика.
+- Защита корпоративных сетей.
+
+[Официальный сайт](https://www.usergate.com/?utm_source=chatgpt.com)
+
+[ИнфоТеКС в Санкт-Петербурге: новый коммерческий офис с учебным центром](https://images.openai.com/static-rsc-4/Kludy5xkiCWTJgXGXdTxSIBjkHywU9_o5_baA3HG5UT7VhA2lefKtXWjLWqIX6Bt979_TyK5JnxmPbQiHUsKryfT2lURHYzyu9mlnIZhzsP7IWDRBCBTRNZjsfnLV3Jppo3MHeOPRwKIO5uemO1ChHm1grV_7JYUUcM9fqmGyc8?purpose=inline)
+
+**6. ИнфоТеКС**
+
+Разработчик средств криптографической защиты информации и защищённых каналов связи.
+
+- ViPNet.
+- Защита каналов передачи данных.
+- VPN.
+- Криптографическая защита информации.
+
+[Официальный сайт](https://infotecs.ru/?utm_source=chatgpt.com)
+
+[Код безопасности Континент АП, купить в Санкт-Петербурге по выгодной цене](https://images.openai.com/static-rsc-4/7Tesm0ATQ5JUaJExjdlLprDuSdgHShWdbnyMs-PbuQaniUXxc6vfD_-qDrB0rz-szY70_cCg6T517Ycc0ZuRZdpd6FqDwYT3LeQY2xHxtYJym8hV5IQbxjiZ4A8oMAaZuxe4ghOHxGONEGpNrREXv0Chny-FGu2KID-Ndjh-B3U?purpose=inline)
+
+**7. Код Безопасности**
+
+Разработчик средств защиты корпоративных информационных систем.
+
+- Континент 4 (межсетевое экранирование).
+- Secret Net Studio.
+- Средства защиты рабочих станций.
+- Защита виртуальной инфраструктуры.
+
+[Официальный сайт](https://www.securitycode.ru/?utm_source=chatgpt.com)
+
+Компании входят в число заметных участников российского рынка ИБ. В частности, в рейтинге SecPost по выручке за 2025 год лидируют «Лаборатория Касперского», «Газинформсервис», Positive Technologies, «Солар» и BI.ZONE.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://secpost.ru\&sz=32)
+
+SecPost+1
+
+
+
+## **2. Крупные интеграторы информационной безопасности**
+
+Если предприятию требуется не просто приобрести программное обеспечение, а провести аудит, спроектировать систему защиты, внедрить средства ИБ и организовать мониторинг, стоит рассмотреть интеграторов.
+
+| Компания             | Основная специализация                           |
+| -------------------- | ------------------------------------------------ |
+| Инфосистемы Джет     | Проектирование и внедрение комплексных систем ИБ |
+| Innostage            | SOC, SIEM, защита инфраструктуры                 |
+| Angara Security      | Аудит, пентесты, SOC, мониторинг угроз           |
+| УЦСБ                 | Комплексная защита информационных систем         |
+| Информзащита         | Аудит, консалтинг, внедрение средств защиты      |
+| К2 Кибербезопасность | Интеграция и сопровождение решений ИБ            |
+
+Эти организации работают с крупными корпоративными заказчиками и реализуют комплексные проекты.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://secpost.ru\&sz=32)
+
+SecPost+1
+
+
+
+## **3. Кого выбрать в зависимости от задачи**
+
+| Задача предприятия                             | Кого рассмотреть                             |
+| ---------------------------------------------- | -------------------------------------------- |
+| Комплексная защита инфраструктуры              | Positive Technologies, BI.ZONE               |
+| Антивирусная защита рабочих станций и серверов | Лаборатория Касперского                      |
+| Мониторинг событий безопасности (SIEM)         | Positive Technologies, Солар, Kaspersky      |
+| Защита корпоративной сети (NGFW)               | UserGate, Код Безопасности                   |
+| Криптографическая защита каналов               | ИнфоТеКС                                     |
+| Защита от утечек информации (DLP)              | Солар, SearchInform, InfoWatch               |
+| Комплексное внедрение ИБ                       | Инфосистемы Джет, Innostage, Angara Security |
+
+## **4. Моя рекомендация**
+
+Для крупного корпоративного заказчика я бы выделил три компании для первоначального рассмотрения:
+
+1. **Positive Technologies** — если приоритетом является обнаружение атак, анализ защищённости и построение системы мониторинга киберугроз.
+2. **ГК «Солар»** — если требуется комплексный подход с внедрением средств защиты и использованием внешних сервисов ИБ.
+3. **BI.ZONE** — если необходимы управляемые услуги кибербезопасности, SOC, реагирование на инциденты и защита корпоративной инфраструктуры.
+
+При этом окончательный выбор следует делать после технического обследования инфраструктуры, оценки совместимости продуктов, проверки лицензий и сертификатов ФСТЭК/ФСБ (если они требуются для конкретного проекта).
+
+**Дополнительный ориентир:** [Рейтинг крупнейших ИБ-компаний России за 2025 год](https://secpost.ru/rejting-ib-kompanij-rossii-2026?utm_source=chatgpt.com) и [Обзор российских ИБ-интеграторов за 2026 год](https://secpost.ru/kto-est-kto-na-rossijskom-rynke-ib-integraczii-razbor-secpost?utm_source=chatgpt.com).

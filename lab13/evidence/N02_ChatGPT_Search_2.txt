@@ -1,0 +1,135 @@
+**Positive Technologies (PT)** — российская компания, специализирующаяся на разработке программного обеспечения и комплексных решений для защиты информационных систем от кибератак.
+
+Основное направление деятельности компании — **выявление, предотвращение и расследование кибератак**, а также повышение защищённости корпоративной и промышленной ИТ-инфраструктуры.
+
+Компания предлагает несколько основных категорий продуктов и услуг.
+
+## **1. Основные программные продукты**
+
+Ключевые решения компании по направлениям информационной безопасности.
+
+### **1.1. Защита ИТ-инфраструктуры**
+
+[MaxPatrol SIEM » Pointlane](https://images.openai.com/static-rsc-4/MK-UgrQfmP-vnYNa2m-HgLYZSmq4MI3dvfYJR4nodGSvuZPu0YT7sR826bGYlSUve32k277jRz3SkJ3MvSIsfaEZMQtt_WGcKs1YTwjflDD8z3KIenudEQDNi8yLuXkxVVo2NnQK9wznm0WxAOTRV27YupWXkBXSwLt2PfIaJPM?purpose=inline)
+
+**MaxPatrol SIEM**
+
+Система мониторинга событий информационной безопасности. Собирает и анализирует события из различных компонентов инфраструктуры, обнаруживает подозрительную активность и помогает расследовать инциденты.
+
+[PT MaxPatrol VM. Большой обзор / Хабр](https://images.openai.com/static-rsc-4/EAgXC2n6KMNupzS34WjT5EvDtQ_6J84CZhrt9DnYLPNY0sENWsHL8F9R9g_Fw9x2C9D8R8u5NWIRAWqAFz_XGRLs5LgzqMmtPaZOBCw6dzNIY0H9qzD8em6zHXftPTUN0SxlS4qU1jpL3NsNob4lYnCy0P7LyZhyZ-dg6FU4yE0?purpose=inline)
+
+**MaxPatrol VM**
+
+Система управления уязвимостями. Позволяет выявлять слабые места в инфраструктуре, оценивать риски и определять приоритеты устранения уязвимостей.
+
+[Обзор MaxPatrol EDR 8.1: обнаружение сложных атак на конечных устройствах и сценарии реагирования](https://images.openai.com/static-rsc-4/BVZ0m7D_x5QON0PX0Chnx2724oFbQaHIDo_o73-_R-ZmXr98zNLqw87SIfzOhZp3S9Frupaq2XMJj4h1CqHBvWywO-zZRpdk552T-1Yk3G7JyB-wMvnrzgj-MoyDsImcK3ZKJEdsLACgxCbIcesR-4ihMcCNGVX4K4KRETrpG4c?purpose=inline)
+
+**MaxPatrol EDR**
+
+Средство обнаружения и реагирования на угрозы на конечных устройствах (рабочих станциях и серверах).
+
+[PT Sandbox 5.27: обзор возможностей сетевой песочницы Positive Technologies](https://images.openai.com/static-rsc-4/DYWi79PuJrSrYh8asz_SywvJm1JFAowBWEaIm_gVoc0ltdShVXg2CS4NPGjWCQyN-1dzbW1_XDnMAsRTxwyJH5WolpvWjLGDmNcACBDOPMqrlvjJAcTUg0AXA7DM2nSqwRMNLHMjYcSTzWl_TH31fccbrZysZjWs-rmiyT_-_pQ?purpose=inline)
+
+**PT Sandbox**
+
+Анализирует подозрительные файлы в изолированной среде для выявления вредоносного программного обеспечения.
+
+### **1.2. Защита сетей и веб-приложений**
+
+- **PT NGFW** — межсетевой экран нового поколения для защиты сетевого периметра и сегментации сети.
+- **PT Network Attack Discovery (PT NAD)** — анализ сетевого трафика для выявления подозрительной активности и кибератак.
+- **PT Application Firewall** — защита веб-приложений и API от атак.
+- **PT Email Security** — многоуровневая защита корпоративной электронной почты от вредоносных сообщений и фишинга.
+
+### **1.3. Безопасность разработки ПО**
+
+- **PT Application Inspector** — статический анализ исходного кода для выявления уязвимостей.
+- **PT BlackBox** — динамический анализ защищённости веб-приложений без необходимости доступа к исходному коду.
+
+### **1.4. Защита промышленных систем**
+
+- **PT ISIM** — мониторинг и выявление инцидентов информационной безопасности в промышленных сетях и АСУ ТП.
+- **PT Industrial Cybersecurity Suite** — комплексное решение для защиты промышленных инфраструктур.
+
+### **1.5. Защита облачных сред и данных**
+
+- **PT Container Security** — защита контейнерных и облачных инфраструктур.
+- **PT Data Security** — инвентаризация, классификация и мониторинг корпоративных данных.
+
+## **2. Комплексные решения**
+
+Помимо отдельных программных продуктов, компания предлагает комплексные решения, объединяющие несколько инструментов и технологий.
+
+| Решение                           | Назначение                                                                                |
+| --------------------------------- | ----------------------------------------------------------------------------------------- |
+| PT Anti-APT                       | Обнаружение сложных целевых атак и расследование инцидентов                               |
+| PT XDR                            | Комплексное обнаружение и реагирование на киберугрозы                                     |
+| PT Industrial Cybersecurity Suite | Защита промышленных информационных систем                                                 |
+| PT Platform 187                   | Комплекс средств защиты для выполнения требований к безопасности КИИ                      |
+| Построение центра ГосСОПКА        | Создание и организация работы центра обнаружения и реагирования на компьютерные инциденты |
+
+## **3. Услуги Positive Technologies**
+
+Помимо продажи и внедрения программных продуктов, компания предоставляет профессиональные услуги в области информационной безопасности.
+
+[BCA Cyber Security | Haridwar University](https://images.openai.com/static-rsc-4/0d9lxWlmvTGL9UJyDt4Bl8y6E714eRJz73eQMGIC4FCa9DppFDttOHAogMwR_iByp8sx7InhM7qHbZH_naxWihdBYvx4ikUawbYH5GU6lmCy9c9DYpU5FRLc56l3XF7qKazhVGo1IhvKOnM5YbktOgtyRa_vJ37m-Q8C83L4GCE?purpose=inline)
+
+**Анализ защищённости (пентесты)**
+
+Проверка информационных систем на наличие уязвимостей путём моделирования действий злоумышленников.
+
+[Мониторинг и реагирование на инциденты ИБ SOC](https://images.openai.com/static-rsc-4/kzFCBMpnnC-h4xgVhbXC8UPXUriMQLW84LuSsqzIo8srAlBNXBrCJUa5fLV3LaLyQCVOiEuxy1k_6RnkTi74Hou2uEP-D_4Vx2MjMzCuBu4OZRL_UYd9Rq9MSYXRaNZMPKSfgo6IvBpOB4s8LS9ki7-wi3JYVWJlwXYMVCs6Z8A?purpose=inline)
+
+**Расследование киберинцидентов**
+
+Анализ произошедших атак, определение источников компрометации, выявление действий злоумышленников и помощь в устранении последствий.
+
+[Information Security Services & IT Security Solutions - 901 TEC](https://images.openai.com/static-rsc-4/lfFpMsqByRojd2vJYDpQ-pKyvAhq0N_nTYt7g3V4zExglv0ZezlsApNyJUB0spxBYp2vuTxPy4-SPv8vJhYNYWs5X2sZ8W9a9bGLZX_69xgnwMVgT0ZS7WNjsH2wOS7eAthQJ44VycAvAXZadBU-bm_B2ooia7gHP1hiUMG5RhY?purpose=inline)
+
+**Консалтинг в области ИБ**
+
+Оценка уровня защищённости организации, разработка рекомендаций и проектирование систем информационной безопасности.
+
+[Managed Security Services - Microminder Cyber Security](https://images.openai.com/static-rsc-4/7APyGCgkJnDhFyKI-WIuch6vPVjDqt9zGFknwXIno-W0W-6w0suOxgbGcTlbOR--0S_9afTj8FKz2My47KTi21nOG6Q1n6ynkcRaLV8uzclx6Qy-HNEKb_6Nf5JfeCELbBxqWHdBAQeznVW7YjRK0_KnQbBuInJj_jiNxv-clqk?purpose=inline)
+
+**Техническая поддержка и сопровождение**
+
+Помощь в эксплуатации, настройке и обновлении продуктов Positive Technologies.
+
+[Training & Internship | SSMT Solutions](https://images.openai.com/static-rsc-4/dpN-Q-ozbpjp4-csmQjUlEP2COSdaQkLyu1GHQKjtrh19URRxs6L7500Rd0YBL7XWnP1oATZTDTi8nAimuAQf7cVcB8kOKZR28QeZVasuftw8T49si3HauZ1-2-DzhmRMsdYUC5YbsSkdJoULkM7mkz2j9JezaCrk61PN3Pppf4?purpose=inline)
+
+**Обучение специалистов**
+
+Образовательные программы и курсы по информационной безопасности и использованию продуктов компании.
+
+## **4. Основные направления деятельности: краткая схема**
+
+## **Positive Technologies**
+
+Разработка решений в области кибербезопасности
+
+Защита инфраструктуры
+
+Защита сетей
+
+Безопасная разработка
+
+Промышленная безопасность
+
+Облачная безопасность
+
+Выявление и расследование атак
+
+**Профессиональные услуги**
+
+Аудит, пентесты, консалтинг, реагирование на инциденты, техническая поддержка и обучение
+
+## **5. Где ознакомиться с продуктами**
+
+- [Официальный каталог продуктов Positive Technologies](https://ptsecurity.com/products/?utm_source=chatgpt.com).
+- [Информация о компании и направлениях деятельности](https://ptsecurity.com/about/?utm_source=chatgpt.com).
+- [Годовой отчёт за 2025 год: продукты, решения и сервисы](https://ar2025.ptsecurity.com/products-solutions-services?utm_source=chatgpt.com).
+
+**Итог:** Positive Technologies не является исключительно разработчиком антивирусного программного обеспечения. Это компания с широкой линейкой средств информационной безопасности: от сканеров уязвимостей и SIEM-систем до межсетевых экранов, EDR, защиты промышленных сетей и комплексных услуг по анализу защищённости.
+
+Для изучения российского рынка ИБ особенно интересны MaxPatrol SIEM, MaxPatrol VM, MaxPatrol EDR и PT NGFW: они охватывают разные уровни защиты корпоративной инфраструктуры.

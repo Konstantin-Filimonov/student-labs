@@ -1,0 +1,161 @@
+На российском рынке информационной безопасности существует достаточно много альтернативных разработчиков, способных конкурировать с Positive Technologies и предлагать решения для крупных корпоративных заказчиков, государственных организаций и объектов КИИ.
+
+Выбор зависит от направления защиты: мониторинг SOC, анализ уязвимостей, антивирусная защита, защита сетевой инфраструктуры, предотвращение утечек или управление доступом.
+
+## **1. Основные российские разработчики средств кибербезопасности**
+
+[Free Kaspersky New Logo Vector Download | Logowik](https://images.openai.com/static-rsc-4/LCcOioOC0j8MBipZsX0mistFLgHT39rXDpR1365xv8kgvVkG8MKrF3Ue5vR-8Pa_a-9nAZcwyYA_hNBM3Q4kwuJXx7d7JhAVy08QC0r6FBWL8el-iN9JvlJsZmDNZGI5TJFxdnX5JE2sF6NVk_JHO8dXa8TjyU2PgdpMVFs14dI?purpose=inline)
+
+**1. Лаборатория Касперского**
+
+Один из крупнейших российских разработчиков решений информационной безопасности.
+
+- Kaspersky Endpoint Security — защита рабочих станций и серверов.
+- Kaspersky KUMA — SIEM для мониторинга событий.
+- Kaspersky EDR — обнаружение и реагирование на угрозы.
+- Kaspersky Threat Intelligence — аналитика киберугроз.
+
+Сайт: [kaspersky.ru](https://www.kaspersky.ru/?utm_source=chatgpt.com)
+
+[«РТК-Солар»: Средний ущерб от кибератак у крупных компаний составляет около ₽20 млн / Хабр](https://images.openai.com/static-rsc-4/W57nG4sw2nQt7-9PPTDbIKzNeLsCpW0IKXoW-P1MbIdyXhKi9Ig5MYdvl7wWu5W5JRIgsWhwvV_5BBqfbCrB2nqgpJc1ErXvKgPJ044F2D0_jYW1EdnuQcMqShpUJxXre-GG7KU8_tHek1QRUDxwgZZBFXG3OoNBX81Sccd_rEw?purpose=inline)
+
+**2. ГК «Солар»**
+
+Разрабатывает комплексные решения для корпоративной кибербезопасности.
+
+- Solar SIEM — мониторинг событий безопасности.
+- Solar Dozor — предотвращение утечек информации (DLP).
+- Solar NGFW — защита сетевого периметра.
+- Solar JSOC — услуги центра мониторинга безопасности.
+
+Сайт: [rt-solar.ru](https://rt-solar.ru/?utm_source=chatgpt.com)
+
+[Логотип BI.ZONE: правила использования](https://images.openai.com/static-rsc-4/tnukprfMmyx0Y5jE2qUvMX8u-NunCBe72xC62rilZSa7ZKCH90DPlwQNEprGp7s8rz93Fq2VWN43xTwmemyBur1b-w397VkwbRy4Ni4jKihrbOIL7C-bpxA7J48u9VvUjOpfgO5qiTZISmZug7B-XNBtpGU6D-f3cXGk8JpagoM?purpose=inline)
+
+**3. BI.ZONE**
+
+Специализируется на выявлении, предотвращении и расследовании кибератак.
+
+- BI.ZONE SOC — мониторинг и реагирование на инциденты.
+- BI.ZONE Threat Intelligence — разведка киберугроз.
+- BI.ZONE WAF — защита веб-приложений.
+- BI.ZONE AntiFraud — противодействие мошенничеству.
+
+Сайт: [bi.zone](https://bi.zone/?utm_source=chatgpt.com)
+
+[Купить межсетевой экран UserGate — бессрочная лицензия, цена, скидки и поддержка | ИНФАРС](https://images.openai.com/static-rsc-4/LpNwKcwAFHX4PR8Zr3FPMe8MqVmqP3tav7noxb-SAvwEfVAEuioPy73pA7g6hsXHy52biqFFuMhclK-bepAwzUcG64N4nJ8QZnO6vdUE_TepWGev6fuHPuvM8FRUW6xJi1pUNmeqMsgwOSleGS-KbfEbOhbd2mdbgaMOU-1tyrQ?purpose=inline)
+
+**4. UserGate**
+
+Основное направление деятельности — защита сетевой инфраструктуры.
+
+- UserGate NGFW — межсетевой экран нового поколения.
+- UserGate Log Analyzer — анализ сетевых событий.
+- UserGate Client — организация защищённого доступа.
+
+Сайт: [usergate.com](https://www.usergate.com/ru?utm_source=chatgpt.com)
+
+[Форум ГосСОПКА](https://images.openai.com/static-rsc-4/S9VDKNcczEEMIGZKV7CjShW4KJfN2Cr0lpiz2AFJuUcARlZDb8yaFUM_fN23fVMtxZsowRiBYzLBf8qk4eKXCWSh1SPkZqu_WlqbFSmDTo6YKkzMDPrwZ4VpP-XgMIN3sSy-ZSklJohIpeVCog05DSC6iGRgm9JN7_t7UTvNUPQ?purpose=inline)
+
+**5. Код Безопасности**
+
+Разрабатывает средства защиты корпоративной и государственной инфраструктуры.
+
+- Континент 4 — защита сетевого периметра.
+- Secret Net Studio — защита рабочих станций.
+- vGate — защита виртуальной инфраструктуры.
+- Соболь — аппаратно-программные средства защиты.
+
+Сайт: [securitycode.ru](https://www.securitycode.ru/?utm_source=chatgpt.com)
+
+[HolyJS 2019 Moscow | Партнер R-Vision](https://images.openai.com/static-rsc-4/qlyaIYisIM8Yh63kchLyVO-DyOwO-71abbtMltXMa745jhB3QXBFG36CxcVqlcE1omb-l-Mi5TWF7Lb1WtK6FYBmSbpd7REamM3hYCr_CmiXgLc6kkRaI-Petlt3MvkL_Zknybo22qyrafePgdh6SeMiEhCcfw8F6egTaJ32mdk?purpose=inline)
+
+**6. R-Vision**
+
+Разработчик платформ для управления информационной безопасностью и автоматизации SOC.
+
+- R-Vision SIEM — сбор и анализ событий безопасности.
+- R-Vision SOAR — автоматизация реагирования.
+- R-Vision VM — управление уязвимостями.
+- R-Vision IRP — управление инцидентами.
+
+Сайт: [rvision.ru](https://rvision.ru/?utm_source=chatgpt.com)
+
+[Senior С++ разработчик в SearchInform | Эйч — сервис развития карьеры | Эйч](https://images.openai.com/static-rsc-4/4KsPcOE8NvYE3C6gu8qoCF8QWet1I3iEuM-1ZA8mHQWXavwtKpTU6fbZJa1BAj26zff1Xamhj9V-57GmxfxM1Nf-erGw23Pckghz2iM8mSPlQvSNAow-vqKROh0HPoi048-CMauMFEWxOU1dJHhyDCKTE-HJaJ90sDUt0nmWBUQ?purpose=inline)
+
+**7. SearchInform**
+
+Специализируется на защите корпоративных данных и предотвращении внутренних угроз.
+
+- SearchInform DLP — предотвращение утечек информации.
+- SearchInform SIEM — мониторинг событий безопасности.
+- StaffCop — контроль действий сотрудников.
+
+Сайт: [searchinform.ru](https://searchinform.ru/?utm_source=chatgpt.com)
+
+[Infotecs](https://images.openai.com/static-rsc-4/NhAXcOi6KAhG41GS1B1ayJve-uD_W3Iupbkrc5IiemcbwO-Rd4gw17C8d2AdpFSLC7K-Qm-XBzj6Jym7mqKi9OkOrYmoNOS7YaysruhnS1AUzwFy9HfelQq2WgFTk6SiR-ACqjkj6uoLOw-xyDaQ2Qvn2Dphhsr9K2tr9Y2j5Eg?purpose=inline)
+
+**8. ИнфоТеКС**
+
+Разработчик средств криптографической защиты информации и защищённых сетей.
+
+- ViPNet — создание защищённых каналов связи.
+- ViPNet Coordinator — защита сетевых соединений.
+- ViPNet Endpoint Protection — защита конечных устройств.
+
+Сайт: [infotecs.ru](https://infotecs.ru/?utm_source=chatgpt.com)
+
+## **2. Сравнение разработчиков по направлениям деятельности**
+
+| Компания                | Основная специализация              | Примеры решений       |
+| ----------------------- | ----------------------------------- | --------------------- |
+| Лаборатория Касперского | Антивирусы, EDR, SIEM               | KES, KUMA             |
+| Солар                   | SOC, DLP, SIEM, NGFW                | Solar SIEM, Dozor     |
+| BI.ZONE                 | SOC, Threat Intelligence, WAF       | BI.ZONE SOC, WAF      |
+| UserGate                | Сетевая безопасность                | UserGate NGFW         |
+| Код Безопасности        | Защита инфраструктуры и НСД         | Secret Net, Континент |
+| R-Vision                | SIEM, SOAR, управление уязвимостями | R-Vision SIEM, SOAR   |
+| SearchInform            | DLP, защита от внутренних угроз     | SearchInform DLP      |
+| ИнфоТеКС                | Криптографическая защита            | ViPNet                |
+
+## **3. Дополнительные российские разработчики**
+
+Также стоит обратить внимание на следующие компании:
+
+- **InfoWatch** — защита корпоративной информации, DLP и контроль утечек. [Официальный сайт](https://www.infowatch.ru/?utm_source=chatgpt.com).
+- **Гарда** — защита сетей, веб-приложений и данных. [Официальный сайт](https://garda.ai/?utm_source=chatgpt.com).
+- **Dr.Web** — антивирусная защита рабочих станций и серверов. [Официальный сайт](https://drweb.ru/?utm_source=chatgpt.com).
+- **Аванпост** — управление идентификацией и доступом (IAM). [Официальный сайт](https://avpassport.com/?utm_source=chatgpt.com).
+- **КриптоПро** — криптографическая защита и электронная подпись. [Официальный сайт](https://cryptopro.ru/?utm_source=chatgpt.com).
+- **Security Vision** — автоматизация процессов ИБ, SIEM, SOAR и управление инцидентами. [Официальный сайт](https://securityvision.ru/?utm_source=chatgpt.com).
+
+## **4. Кого рассматривать в качестве альтернативы Positive Technologies?**
+
+Если задача заключается именно в поиске альтернатив Positive Technologies для корпоративного заказчика, я бы выделил следующие варианты:
+
+| Потребность                   | Наиболее интересные альтернативы             |
+| ----------------------------- | -------------------------------------------- |
+| Построение SOC                | Солар, BI.ZONE, R-Vision                     |
+| SIEM и анализ событий         | Kaspersky, R-Vision, Security Vision, RuSIEM |
+| Анализ уязвимостей            | R-Vision, RedCheck, Security Vision          |
+| Защита сетевой инфраструктуры | UserGate, Код Безопасности, ИнфоТеКС         |
+| Защита конечных устройств     | Kaspersky, Dr.Web, Код Безопасности          |
+| Защита веб-приложений         | BI.ZONE, Гарда, InfoWatch                    |
+| Автоматизация реагирования    | R-Vision, Security Vision, Солар             |
+
+[image](https://www.google.com/s2/favicons?domain=https://rusiem.com\&sz=32)
+
+rusiem.com+3
+
+## **5. Где изучить рынок и сравнить продукты**
+
+Для более подробного исследования рекомендую:
+
+1. [Anti-Malware.ru](https://www.anti-malware.ru/?utm_source=chatgpt.com) — обзоры, сравнительные тестирования и анализ средств защиты.
+2. [CNews](https://www.cnews.ru/?utm_source=chatgpt.com) — рейтинги российских разработчиков и исследования рынка ИБ.
+3. [Platforms.su](https://platforms.su/platforms/security?utm_source=chatgpt.com) — каталог российских средств защиты информации.
+4. [Реестр российского программного обеспечения](https://reestr.digital.gov.ru/?utm_source=chatgpt.com) — проверка наличия программных продуктов в реестре Минцифры.
+
+**Мой вывод:** если нужен крупный российский поставщик комплексных решений, в первую очередь стоит изучить «Лабораторию Касперского», «Солар», BI.ZONE и «Код Безопасности». Если интересуют именно инструменты построения SOC, мониторинга и реагирования на инциденты, особенно интересны R-Vision и Security Vision.
+
+При выборе важно сравнивать не только функциональность, но и наличие сертификатов ФСТЭК/ФСБ (если они требуются), техническую поддержку, интеграцию с существующей инфраструктурой и стоимость владения. Иначе можно купить очень красивую коробку, которая не решает ни одной реальной задачи предприятия.
