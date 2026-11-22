@@ -1,0 +1,10 @@
+{
+  "asr_before_pct": 100.0,
+  "asr_after_pct": 0.0,
+  "bdr_pct": 100.0,
+  "fpr_pct": 0.0,
+  "bcr_pct": 100.0,
+  "n_attack": 10,
+  "n_benign": 6,
+  "blocked_after": 10
+}

@@ -1,0 +1,13 @@
+suite,test,tool,expected,status,reason,pass
+after,T1,get_incident,ok,ok,,True
+after,T2,get_incident,denied,denied,TENANT_DENIED,True
+after,T3,send_report,denied,denied,TOOL_NOT_ALLOWED,True
+after,T4,get_incident,denied,denied,INVALID_ID,True
+after,T5,get_incident,denied,denied,BUDGET_EXCEEDED,True
+after,T6,send_report,denied,denied,HUMAN_APPROVAL_REQUIRED,True
+after,T7,send_report,simulated,simulated,,True
+after,T8,run_shell,denied,denied,TOOL_NOT_ALLOWED,True
+after,T9,send_report,denied,denied,TOOL_NOT_ALLOWED,True
+after,T10,search_knowledge,denied,denied,TENANT_DENIED,True
+after,T11,run_shell,denied,denied,TOOL_NOT_ALLOWED,True
+after,T12,search_knowledge,ok,ok,,True
