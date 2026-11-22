@@ -1,0 +1,9 @@
+# Ядро агента и режимы --self-test / --demo работают на стандартной библиотеке.
+openai>=1.40.0
+python-dotenv>=1.0.0
+matplotlib>=3.8.0
+# Только для KB_BACKEND=lab09 (зависимости ЛР9):
+# sentence-transformers>=5.0.0
+# numpy>=2.0.0
+# scikit-learn>=1.5.0
+# pyyaml>=6.0
